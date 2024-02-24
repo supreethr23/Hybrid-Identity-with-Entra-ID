@@ -54,12 +54,12 @@
 
 1. To create a new VDI user, Click **New** and select **User** and create the users with the following info.
 
-  | Name           | User Name                             | Password   | 
-  | -------------- | ------------------------------------- | ---------- |
-  | Edmund Reeve   | `ereeve@yourtenant.onmicrosoft.com`   | Pa55-w.rd! |
-  | Miranda Snider | `msnider@yourtenant.onmicrosoft.com`  | Pa55-w.rd! | 
-  | Allan Deyoung  | `AllanD@yourtenant.onmicrosoft.com`   | Pa55-w.rd! | 
-  | Joni Sherman   | `JoniS@yourtenant.onmicrosoft.com`    | Pa55-w.rd! | 
+      | Name           | User Name                             | Password   | 
+      | -------------- | ------------------------------------- | ---------- |
+      | Edmund Reeve   | `ereeve@yourtenant.onmicrosoft.com`   | Pa55-w.rd! |
+      | Miranda Snider | `msnider@yourtenant.onmicrosoft.com`  | Pa55-w.rd! | 
+      | Allan Deyoung  | `AllanD@yourtenant.onmicrosoft.com`   | Pa55-w.rd! | 
+      | Joni Sherman   | `JoniS@yourtenant.onmicrosoft.com`    | Pa55-w.rd! | 
 
 ## Task 3: Configure directory synchronization with Azure AD Connect
 
