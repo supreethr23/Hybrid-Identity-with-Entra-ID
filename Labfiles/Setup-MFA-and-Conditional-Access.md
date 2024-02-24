@@ -62,7 +62,7 @@
 
 2. In the address bar, enter **outlook.office.com** and press Enter.
 
-3. On the **Pick an account** page, select **`Edmund Reeve@yourtenant.onmicrosoft.com`**.
+3. On the **Pick an account** page, select **`Edmund_Reeve@yourtenant.onmicrosoft.com`**.
 
 4. On the **Enter password** page, enter the tenant password **Pa55-w.rd!** and select **Sign in**.
 
@@ -120,7 +120,7 @@
 
 2. In the address bar, enter **outlook.office.com** and press Enter.
 
-4. On the **Pick an account** page, select **`Edmund Reeve@yourtenant.onmicrosoft.com`**.
+4. On the **Pick an account** page, select **`Edmund_Reeve@yourtenant.onmicrosoft.com`**.
 
 5. On the **Enter password** page, enter the tenant password **Pa55-w.rd!** and select **Sign in**.
 
