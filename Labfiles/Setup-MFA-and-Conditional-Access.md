@@ -52,7 +52,7 @@
 
 14. On the **About enabling multi-factor auth** message, select **enable multi-factor auth**.
 
-15. On the **Updates successful** message, select **close**. Take note that the **Multi-Factor Auth Status** for Alex Wilber is now **Enabled**.
+15. On the **Updates successful** message, select **close**. Take note that the **Multi-Factor Auth Status** for Edmund Reeve is now **Enabled**.
 
 16. Close Microsoft Edge.
 
@@ -80,7 +80,7 @@
 
 10. At the Stay signed in message, select **No**. 
 
-    > Outlook on the Web opens to Alex Wilber's inbox.
+    > Outlook on the Web opens to  Edmund Reeve's inbox.
 
 11. At the top-right corner, select the **Account manager forEdmund** and then select **Sign out**.
 
@@ -126,7 +126,7 @@
 
 6. On the **Stay signed in** page, select **No**. 
 
-   > Outlook opens to Alex's inbox. Take note that only the password was required to sign in to Outlook on the Web as you removed the MFA in the previous Exercise.
+   > Outlook opens to Edmund Reeve's inbox. Take note that only the password was required to sign in to Outlook on the Web as you removed the MFA in the previous Exercise.
 
 7. At the top-right corner, select the **Account manager for Edmund Reeve** and then select **Sign out**.
 
@@ -192,7 +192,7 @@
 
 9. At the Stay signed in message, select **No**. 
 
-   > Outlook on the Web opens to Alex Wilber's inbox.
+   > Outlook on the Web opens to Edmund Reeve's inbox.
 
 10. At the top-right corner, select the **Account manager for Edmund Reeve** and then select **Sign out**.
 
