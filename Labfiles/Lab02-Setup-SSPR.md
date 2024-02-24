@@ -2,9 +2,7 @@
 
 ### Task 1: Configure password writeback
 
-1. Sign in to **SEA-SVR1** as **Contoso\\Administrator** with the password **Pa55w.rd** and close **Server Manager**.
-
-2. On the desktop, double-click **Azure AD Connect**.
+1. Go to downloads, double-click **Azure AD Connect**.
 
 3. On the **Welcome to Azure AD Connect** page, select **Configure**.
 
@@ -24,7 +22,7 @@
 
 ### Task 2: Enable self-service password reset
 
-1. On **SEA-SVR1**, on the taskbar select **Microsoft Edge**, in the address bar type **https://entra.microsoft.com/**, and then press **Enter**.
+1. On the taskbar select **Microsoft Edge**, in the address bar type **https://entra.microsoft.com/**, and then press **Enter**.
 
 2. Sign in as  **<inject key="AzureAdUserEmail"></inject>**, and use the tenant Admin password **<inject key="AzureAdUserPassword"></inject>**, If the **Stay signed in?** prompt appears, select **No**.  
 
@@ -58,30 +56,26 @@
 
 ### Task 3: Validate self-service password reset
 
-1. Switch to **SEA-WS3**.
+1. On the taskbar, select **Microsoft Edge**.
 
-2. If necessary, sign in as **Admin** with the password of **Pa55w.rd**.
+2. Browse to **https://myaccount.microsoft.com**. 
 
-3. On the taskbar, select **Microsoft Edge**.
+3. On the **Pick an account** page, select **Use another account**.
 
-4. Browse to **https://myaccount.microsoft.com**. 
+4. On the **Sign in** page, enter **`Miranda_Snider@azurehol1058.onmicrosoft.com`** and then select **Next**.
 
-5. On the **Pick an account** page, select **Use another account**.
+5. On the **Enter password** page, enter **Pa55-w.rd!** and then select **Sign in**. If the Microsoft Edge prompts to save the password, select **Save**.
 
-6. On the **Sign in** page, enter **`Aaron@yourtenant.onmicrosoft.com`** and then select **Next**.
+6. On the **My Account** page, in the navigation pane, select **Password**.
 
-7. On the **Enter password** page, enter **Pa55w.rd** and then select **Sign in**. If the Microsoft Edge prompts to save the password, select **Save**.
+7. On the **Change password** page, enter the following information and then select **submit**:
+     - Old password: **Pa55-w.rd!**
+     - Create new password: **Pa55w.rd!1234**
+     - Confirm new password: **Pa55w.rd!1234**
 
-8. On the **My Account** page, in the navigation pane, select **Password**.
+8. If Microsoft Edge prompts to save the password, select **Save**.
 
-9. On the **Change password** page, enter the following information and then select **submit**:
-     - Old password: **Pa55w.rd**
-     - Create new password: **Pa55w.rd1234!**
-     - Confirm new password: **Pa55w.rd1234!**
-
-10. If Microsoft Edge prompts to save the password, select **Save**.
-
-11. Close Microsoft Edge and sign out of SEA-WS3.
+9. Close Microsoft Edge.
 
 ### Task 4: Run AD Sync
 
@@ -122,4 +116,3 @@
 
 **Results**: After completing this exercise, you will have successfully configured and validated self-service password reset.
 
-**END OF LAB**
