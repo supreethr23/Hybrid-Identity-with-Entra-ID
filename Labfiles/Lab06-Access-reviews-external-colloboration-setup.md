@@ -13,7 +13,7 @@
 1. On **New access review** page, provide the below settings
 
   | Setting | Value |
-   --------|------
+   |--------|------|
   | Select what to review | Teams + Groups |
   | Review scope | select Teams + groups |
   | Groups | search and select **All users** from the lsit |
@@ -22,18 +22,18 @@
 1. Select **Next:Reviews**
 
    | Setting | Value |
-   --------|------
-  | Select reviewers | Selected user(s) or group(s) |
-  | Users or groups | click **+ Select Reviewers** and select **ODL_USER XXXX** from the list |
-  | Review Recurrence | Monthly |
+   |--------|------|
+   | Select reviewers | Selected user(s) or group(s) |
+   | Users or groups | click **+ Select Reviewers** and select **ODL_USER XXXX** from the list |
+   | Review Recurrence | Monthly |
 
 1. Select **Next:Settings**
 
    | Setting | Value |
-   --------|------
-  | Auto apply results to resource | Selected the checkbox |
-  | if reviewers dont respond | Take recommendation |
-  | At end of review, send notification to | click **+ Select Recipients** and select **All users** from the list  |
+   |--------|------|
+   | Auto apply results to resource | Selected the checkbox |
+   | if reviewers dont respond | Take recommendation |
+   | At end of review, send notification to | click **+ Select Recipients** and select **All users** from the list  |
 
 1. Select **Next:Review + Create** and enter **AccessreviewforAllusers** to the **Review name**
 
