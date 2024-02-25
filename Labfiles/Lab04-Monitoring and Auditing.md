@@ -27,7 +27,7 @@ In this task, you will create a Log Analytics workspace for to store the log inf
 1. Click on **+Add diagnostic setting** and provide the below settings
 
    | Setting | Value |
-   --------------------
+   -----------|---------
    | Diagnostic setting name | **Logsinfo** |
    |Logs | select **Auditlogs** and **signinlogs** |
 1. On **Destination details**, select the **Send to Log analytics checkbox** and make sure that log analytics workspace which is created earlier is selected.
