@@ -1,56 +1,53 @@
-# Lab 3: Implement and use Privileged Identity Management
+# Lab 4: Monitor and audit Entra ID for security and compliance purposes
 
-## Task 1 - Assign Azure resource roles
+## Task 1 - Create Log Analytics Workspace
 
-1. Sign in to [https://entra.microsoft.com](https://entra.microsoft.com) using a Global Administrator account.
+In this task, you will create a Log Analytics workspace for to store the log information and analysing the machines onboarded through Azure Arc.
 
-2. Search for and then select **Privileged Identity Management.**
+1. In the Search bar of the Azure portal, type **Log Analytics(1)**, then select **Log Analytics workspaces(2)**.
 
-3. In the Privileged Identity Management page, in the left navigation, select **Micrososft Entra roles.**
-
-4. In the left navigation menu, under **Manage**, select **Roles** to see the list of Entra roles.
-
-5. On the top menu, select + **Add assignments**.
-
-6. In the Add assignments page, select the **Select role** menu and then select **Gloabl Administrator.**
-
-7. Under **Select member(s),** select **No member selected**.
-
-8. In the Select members pane, select the following users and then chose **Select**.
-    | Name           | 
-      | -------------- | 
-      | Edmund Reeve   | 
-      | Miranda Snider | 
-      | Allan Deyoung  | 
-      | Joni Sherman   | 
+1. Select **+ Create** from the command bar.
     
-9. Select **Next**.
+1. Select Resource Group from the drop down(avs-rg).
 
-10. On the **Settings** tab, under **Assignment type**, select **Eligible**.
+1. On the Create Log Analytics workspace page, add the below settings and click on **Review + Create (4)**.
 
-   - **Eligible** assignments require the member of the role to perform an action to use the role. Actions might include performing a multi-factor authentication (MFA) check, providing a business justification, or requesting approval from designated approvers.
+      | Setting | Value|
+      |----------|--------|
+      | Resource Group | **LabRG-<inject key="DeploymentID"></inject>** (1)|
+      | Name | **log-analytics<inject key="DeploymentID"></inject>** (2)|
+      | Region | **East US** (3)|
 
-   - **Active** assignments do not require the member to perform any action to use the role. Members assigned as active have the privileges always assigned to the role.
+1. Once the workspace validation has passed, select **Create**. Wait for the new workspace to be provisioned, this may take a few minutes.
 
-11. Specify an assignment duration by changing the start and end dates and times.
+## Task 2 - Add Diagnostic setting to collect audit logs
 
-12. When finished, select **Assign**.
+1. Navigate to Microsoft Entra ID, and select **Diagnostic settings** under Monitoring section.
 
-13. After the new role assignment is created, a status notification is displayed.
+1. Click on **+Add diagnostic setting** and provide the below settings
 
-## Task 2 - Update or remove an existing Entra role assignment
+   | Setting | Value |
+   --------------------
+   | Diagnostic setting name | **Logsinfo** |
+   |Logs | select **Auditlogs** and **signinlogs** |
+1. On **Destination details**, select the **Send to Log analytics checkbox** and make sure that log analytics workspace which is created earlier is selected.
 
-Follow these steps to update or remove an existing role assignment.
+1. Click on **Save**.
 
-1. Open **Microsoft Entra Privileged Identity Management**.
+  >**Note**: Wait for about 15 mins for logs ingestion to happen and proceed with the next task.
 
-2. Select **Micrososft Entra roles.**
+## Task 3 - Verify the logs in the workspace
 
-3. Under **Manage**, select **Assignments**.
+1. Navigate to the **Log analytics workspace** and Select **Logs** from the general section of the pane.
 
-4. On the **Eligible assignments** tab, in the Action column, review the available options.
+1. Close all the pop-ups until the query pane is visible.
 
-6. Select **Remove**.
+1. In the query pane, run the below queries, to view the activity data ingested into the workspace.
 
-7. In the **Remove** dialog box, review the information and then select **Yes**.
+  ```
+   AuditLogs
+  ```
 
+  ```
+   SigninLogs
+  ```
