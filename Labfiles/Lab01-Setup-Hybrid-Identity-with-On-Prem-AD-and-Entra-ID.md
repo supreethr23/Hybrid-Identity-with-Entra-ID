@@ -73,29 +73,15 @@
 
 1. In the **Microsoft Azure Active Directory Connect** wizard, on the **Welcome to Azure AD Connect** page, select the **I agree to the license terms and privacy notice** check box, and then select **Continue**.
 
-1. On the **Express Settings** page, select **Customize**.
-
-1. On the **Install required components** page, select **Install**.
-
-1. On the **User sign-in** page, ensure that **Password Hash Synchronization** is selected, and then select **Next**.
+1. On the **Express Settings** page, select **Use express settings**.
 
 1. On the **Connect to Azure AD** page, in the **USERNAME** and **PASSWORD** boxes, enter **<inject key="AzureAdUserEmail"></inject>**, and your provided password **<inject key="AzureAdUserPassword"></inject>**, and then select **Next**.
 
-1. On the **Connect your directories** page, ensure that **Contoso.com** is listed under **FOREST**, and then select **Add Directory**.
-
-1. In the **AD forest account** window, select the **Create New AD Account** option, and in the **ENTERPRISE ADMIN USERNAME** field, type **Contoso\\Administrator**, and then type **Pa55w.rd** in the **PASSWORD** field. Select **OK**, and then select **Next**.
+1. On the **Connect to Azure AD DS** page, in the **USERNAME** and **PASSWORD** boxes, enter **CONTOSO\<inject key="AdminUserEmail"></inject>**, and your provided password **<inject key="AdminUserPassword"></inject>**, and then select **Next**.
 
 1. On the **Azure AD sign-in configuration** page, ensure that in the **USER PRINCIPAL NAME** drop-down list, the **userPrincipalName** value is selected. 
 
 1. Select **Continue without matching all UPN suffixes to verified domains** and then select **Next**.
-
-1. On the **Domain and OU filtering** page, select **Sync selected domains and OUs**.
-
-1. Expand **Contoso.com**, clear the checkbox next to **Contoso.com** and ensure that the only following check boxes are selected: **IT**, **Managers**, **Marketing**, **Research**, and **Sales**. Select **Next**.
-
-1. On the **Uniquely identifying your users** page, select **Next**.
-
-1. On the **Filter users and devices** page, select **Next**.
 
 1. On the **Optional features** page, review available options, but do not make any changes. Ensure that **Password hash synchronization** is selected, and then select **Next**.
 
