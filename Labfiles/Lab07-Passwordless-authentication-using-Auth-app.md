@@ -19,6 +19,8 @@
 1. Click on **Save** to enable passwordless sign for All users.
 
 ### Task 2: Configure signin methods to the user
+ 
+  >**Note**: Skip this task, if the ODL user account already has a authenticator app configured in previous lab.
 
 1. Navigate to https://portal.office.com using the credentials provided in the environment details page.
 
