@@ -8,7 +8,7 @@ In this task, you will configure an access review in Microsoft Entra ID to revie
 
 1. On the taskbar select **Microsoft Edge**, in the address bar type **https://portal.azure.com**, and then press **Enter**.
 
-1. On the **Pick an account** page, select**<inject key="AzureAdUserEmail"></inject>**.
+1. On the **Pick an account** page, select **<inject key="AzureAdUserEmail"></inject>**.
 
 1. In the  **Microsoft Entra ID** page , select **Identity governance** under Manage.
 
