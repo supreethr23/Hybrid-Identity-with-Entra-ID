@@ -2,32 +2,47 @@
 
 ### Task 1: Configure password writeback and Password minimum age policy. 
 
-1. Click on the start button and open the Azure AD Connect application. 
+1. Select the **Azure AD Connect** application from the desktop
 
 3. On the **Welcome to Azure AD Connect** page, select **Configure**.
 
+   ![](../media/lab2-1.png)
+
 4. On the **Additional tasks** page, select **Customize synchronization options**, and then select **Next**.
+
+   ![](../media/lab2-2.png)
 
 5. On the **Connect to Azure AD** page, if needed type **<inject key="AzureAdUserEmail"></inject>** in the **USERNAME** text box, type your Admin tenant password **<inject key="AzureAdUserPassword"></inject>** in the **PASSWORD** text box, and then select **Next**.
 
+   ![](../media/lab2-3.png)
+
 6. On the **Connect to your directories** page, select **Next**.
+
+   ![](../media/lab2-4.png)
 
 7. On the **Domain and OU filtering** page, select **Next**.
 
 8. On the **Optional features** page, select **Password writeback**, and then select **Next**.
 
+    ![](../media/lab2-5.png)
+
 9. On the **Ready to configure** page, select **Configure**.
+
+    ![](../media/lab2-6.png)
 
 10. On the **Configuration complete** page, select **Exit**.
 
+    ![](../media/lab2-7.png)
+
 11. Open CMD and run the below command to update the minimum password age policy to 0.
 
-      ```bash
+      ```
         secedit /configure /cfg %windir%\inf\defltbase.inf /db defltbase.sdb /verbose
-
       ```
 
-12. Once updated, restart your JumpVM and verify if the policy is updated, navigate to Local Group policy -> expand Windows Setting -> Account Policies -> Password Policy. The Minimum Password Age should be set to 0.
+13. Once updated, restart the LabVM and verify if the policy is updated, navigate to Local security policy -> expand Security Settings -> Account Policies -> Password Policy. The Minimum Password Age should be set to 0.
+
+    ![](../media/lab2-9.png)
 
 ### Task 2: Enable self-service password reset
 
@@ -78,6 +93,8 @@
 5. On the **Enter password** page, enter **Pa55-w.rd!** or the password that you have entered and then select **Sign in**. If the Microsoft Edge prompts to save the password, select **Save**.
 
 6. On the **My Account** page, in the navigation pane, select **Password**.
+
+    ![](../media/lab2-8.png)
 
 7. On the **Change password** page, enter the following information and then select **submit**:
      - Old password: **Pa55-w.rd!**
