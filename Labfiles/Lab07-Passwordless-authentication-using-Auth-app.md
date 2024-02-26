@@ -4,7 +4,7 @@
 
 ### Task 1: Enable passwordless phone sign-in authentication methods
 
-1. Sign in to "https://entra.microsoft.com/" using credentials provided in the environment details page.
+1. Sign in to https://entra.microsoft.com/ using credentials provided in the environment details page.
 
 1. Browse to Protection > Authentication methods > Policies.
 
