@@ -4,19 +4,25 @@
 
 ### Task 1: Enable passwordless phone sign-in authentication methods
 
-1. Sign in to https://entra.microsoft.com/ using credentials provided in the environment details page.
+1. Sign in to https://entra.microsoft.com/.
 
-1. Browse to Protection > Authentication methods > Policies.
+1. On the **Pick an account** page, select **<inject key="AzureAdUserEmail"></inject>**.
+
+1. On the **Enter password** page, enter the password **<inject key="AzureAdUserPassword"></inject>**.
+
+1. From the left navigation pane, browse to Protection > Authentication methods > Policies.
 
 1. Select **Microsoft Authenticator**
 
 1. Under **Microsoft Authenticator settings**, choose the following options within the Enable and Target tab.
 
-      - Enable - yes
-      - Target - All users
-      - Authentication mode - select **Any**
+      - Enable - yes (1)
+      - Target - All users (2)
+      - Authentication mode - select **Any** (3)
 
-1. Click on **Save** to enable passwordless sign for All users.
+1. Click on **Save** (4) to enable passwordless sign for All users.
+
+   ![](../media/hybrid16.png)
 
 ### Task 2: Configure signin methods to the user
  
@@ -27,6 +33,8 @@
 1. Select the profile icon located at the top right corner and select **View account**.
 
 1. Select the **Security info** > **+Add signin method**
+
+   >**Note:** If you are prompted to sign in using the SMS code click on **Text** and enter the code and sign in.
 
 1. Under **Add a Method**, choose **Authenticator app** and click **Add**.
 
@@ -52,7 +60,7 @@
 
 ### Task 4: Validate the passwordless signin
 
-1. Open incognito tab, and navigate to https://portal.azure.com/
+1. Open the incognito tab, and navigate to https://portal.azure.com/
 
 1. On the **Sign in** page, enter the email address of the same user who had registered with phone signin.
 
