@@ -1,1 +1,41 @@
-
+[
+   {
+    "Name": "Hybrid Identity with Entra ID",
+    "Language": "English",
+    "BaseURL": "https://github.com/CloudLabsAI-Azure/Hybrid-Identity-with-Entra-ID",
+    "Files": [
+      {
+        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Hybrid-Identity-with-Entra-ID/main/Labfiles/Getting-started.md",
+        "Order": 1
+        },
+       {
+        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Hybrid-Identity-with-Entra-ID/main/Labfiles/Lab01-Setup-Hybrid-Identity-with-On-Prem-AD-and-Entra-ID.md",
+        "Order": 2
+        },
+        {
+        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Hybrid-Identity-with-Entra-ID/main/Labfiles/Lab02-Setup-SSPR.md",
+        "Order": 3
+        },
+        {
+        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Hybrid-Identity-with-Entra-ID/main/Labfiles/Lab03-Implement-and-use-PIM.md",
+        "Order": 4
+       },
+       {
+        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Hybrid-Identity-with-Entra-ID/main/Labfiles/Lab04-Monitoring-and-Auditing.md",
+        "Order": 5
+      },
+      {
+        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Hybrid-Identity-with-Entra-ID/main/Labfiles/Lab05-Setup-MFA-and-Conditional-Access.md",
+        "Order": 6
+      },
+      {
+        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Hybrid-Identity-with-Entra-ID/main/Labfiles/Lab06-Access-reviews-external-colloboration-setup.md",
+        "Order": 7
+      },
+      {
+        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Hybrid-Identity-with-Entra-ID/main/Labfiles/Lab07-Passwordless-authentication-using-Auth-app.md",
+        "Order": 8
+      }
+     ]  
+   }
+]
