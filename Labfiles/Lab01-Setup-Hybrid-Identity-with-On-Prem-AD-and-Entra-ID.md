@@ -77,7 +77,7 @@
 
 1. On the **Connect to Azure AD** page, in the **USERNAME** and **PASSWORD** boxes, enter **<inject key="AzureAdUserEmail"></inject>**, and your provided password **<inject key="AzureAdUserPassword"></inject>**, and then select **Next**.
 
-1. On the **Connect to Azure AD DS** page, in the **USERNAME** and **PASSWORD** boxes, enter **CONTOSO\"<inject key="LabVM Admin Username"></inject>**, and your provided password **<inject key="LabVM Admin Password"></inject>**, and then select **Next**.
+1. On the **Connect to Azure AD DS** page, in the **USERNAME** and **PASSWORD** boxes, enter **CONTOSO\**"<inject key="LabVM Admin Username"></inject>**, and your provided password **<inject key="LabVM Admin Password"></inject>**, and then select **Next**.
 
 1. On the **Azure AD sign-in configuration** page, ensure that in the **USER PRINCIPAL NAME** drop-down list, the **userPrincipalName** value is selected. 
 
