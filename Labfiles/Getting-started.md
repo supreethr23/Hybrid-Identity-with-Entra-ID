@@ -6,7 +6,7 @@ Welcome to your Hybrid identity with Entra ID workshop! We've prepared a seamles
 
 Once you're ready to dive in, your virtual machine and lab guide will be right at your fingertips within your web browser.
 
-![](../media/intro1.png)
+![](../media/introp.png)
 
 ### Virtual Machine & Lab Guide
  
@@ -16,13 +16,13 @@ Your virtual machine is your workhorse throughout the workshop. The lab guide is
  
 To get a better understanding of your lab resources and credentials, navigate to the **Environment Details** tab.
 
-![](../media/g2nn.png)
+![](../media/introp1.png)
 
 ## Utilizing the Split Window Feature
  
 For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the Top right corner.
 
-![](../media/splitwindow1.png)
+![](../media/introp2.png)
  
 ## Managing Your Virtual Machine
  
