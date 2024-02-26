@@ -1,4 +1,4 @@
-# Lab 6: Configure Access reviews and external colloboration setup
+# Lab 6: Configure Access reviews and external collaboration setup
 
 ## Exercise 1: Configure Access reviews
 
@@ -6,11 +6,11 @@
 
 In this task, you will configure an access review in Microsoft Entra ID to review access permissions for Teams and Groups. The access review will include all users and will recur monthly. Reviewers will be selected from a specific user group, and notifications will be sent to all users at the end of the review. The review will auto-apply results to resources and take recommendations if reviewers don't respond. Ensure the settings are accurate before creating the access review.
 
-1. On the taskbar select **Microsoft Edge**, in the address bar type **https://entra.microsoft.com**, and then press **Enter**.
+1. On the taskbar select **Microsoft Edge**, in the address bar type **https://portal.azure.com**, and then press **Enter**.
 
-1. Sign in as user **<inject key="AzureAdUserEmail"></inject>** and use the tenant Admin password  **<inject key="AzureAdUserPassword"></inject>**. If the **Stay signed in?** prompt appears, select **No**. The Microsoft Entra admin center opens.
+1. On the **Pick an account** page, select**<inject key="AzureAdUserEmail"></inject>**.
 
-1. In the  **Microsoft Entra ID** , select **Identity governance** under Manage.
+1. In the  **Microsoft Entra ID** page , select **Identity governance** under Manage.
 
 1. Select **Access reviews** from the left pane.
 
@@ -20,10 +20,12 @@ In this task, you will configure an access review in Microsoft Entra ID to revie
 
    | Setting | Value |
    |--------|------|
-   | Select what to review | Teams + Groups |
-   | Review scope | select Teams + groups |
-   | Groups | search and select **All users** from the lsit |
-   | Scope | All users |
+   | Select what to review | Teams + Groups (1)|
+   | Review scope | select Teams + groups (2)|
+   | Groups | search and select **All users** from the list (3)|
+   | Scope | All users (4)|
+
+   ![](../media/hybrid13.png)
 
 1. Select **Next:Reviews**
 
@@ -39,7 +41,7 @@ In this task, you will configure an access review in Microsoft Entra ID to revie
    |--------|------|
    | Auto apply results to resource | Selected the checkbox |
    | if reviewers dont respond | Take recommendation |
-   | At end of review, send notification to | click **+ Select Recipients** and select **All users** from the list  |
+   | At end of review, send notification to | click **+ Select Recipients** and select **ODL_USER XXXX** from the list  |
 
 1. Select **Next:Review + Create** and enter **AccessreviewforAllusers** to the **Review name**
 
@@ -48,8 +50,12 @@ In this task, you will configure an access review in Microsoft Entra ID to revie
 ### Task 2: Review access to groups and applications in access reviews
 
 1. Sign in to My Access at [myaccess](https://myaccess.microsoft.com/)
+   
+1. On the **Pick an account** page, select **<inject key="AzureAdUserEmail"></inject>**.
 
 1. Select **Access reviews** from the left menu to see a list of pending access reviews assigned to you.
+
+   ![](../media/hybrid12.png)
 
 1. After you open My Access under Groups and Apps, you can see:
 
@@ -58,9 +64,9 @@ In this task, you will configure an access review in Microsoft Entra ID to revie
       * Resource: The name of the resource under review.
       * Progress: The number of users reviewed over the total number of users part of this access review.
 
-1. Select the name of an access review to get started.
+1. Select the name of the  access review that you created to get started.
 
-1. After it opens, you'll see the list of users in scope for the access review.
+1. After it opens, you'll see the  of user in the scope for the access review.
 
 1. There are two ways that you can approve or deny access:
 
@@ -83,8 +89,12 @@ In this task, you will configure an access review in Microsoft Entra ID to revie
 
     - You can change your response at any time until the access review has ended. If you want to change your response, select the row and update the response. For example, you can approve a previously denied user or deny a previously approved user.
 
+      ![](../media/hybrid11.png)
+
 1. **Review access based on recommendations** - Follow the below steps
 
+    -  Click on **Details** next to the access review.
+     
     - To make access reviews easier and faster for you, Azure provides recommendations that you can accept with a single selection. There are two ways that the system generates recommendations for the reviewer. One method is by the user's sign-in activity. If a user has been inactive for 30 days or more, the system recommends that the reviewer deny access.
 
     - The other method is based on the access that the user's peers have. If the user doesn't have the same access as their peers, the system recommends that the reviewer deny that user access.
@@ -95,17 +105,21 @@ In this task, you will configure an access review in Microsoft Entra ID to revie
 
     - Select Submit to accept the recommendations.
 
+      ![](../media/hybrid10.1.png)
+
 ## Exercise 2: Configure external collaboration settings
 
 ### Task 1 - Enable Guest Users to perform self service sign-up
 
-1. Sign in to the [entra](https://entra.microsoft.com) using credentials provided in environment details.
+1. Sign in to the [entra](https://entra.microsoft.com)
+
+1. On the **Pick an account** page, select**<inject key="AzureAdUserEmail"></inject>**.
 
 1. Select **Identity** then select **Users**.
 
-1. Open the **All users** menu item, then select **User Settings**.
-
-1. Select **Manage external user collaboration settings**.
+1. Open the **All users** menu item, then select **User Settings**. and select **Manage external user collaboration settings**.
+   
+    ![](../media/hybrid14.png)
 
 1. Ensure that **YES** is marked for the setting Enable guest self-service sign up via user flows.
 
@@ -113,18 +127,18 @@ In this task, you will configure an access review in Microsoft Entra ID to revie
 
 ### Task 2 - Configure external collaboration settings
 
-1. Select **Identity**.
-
-1. Select **External Identities**, and then select All identity providers.
+1. From the left navigation pane, under **Identity** select **External Identities**, and then select All identity providers.
 
 1. Select the **Email one-time passcode** notification link you see near the top of the screen.
+
+   ![](../media/hybrid15.png)
 
    >**Note:** A one-time passcode is a very secure way to invite a user to join your organization.
 
 1. Ensure that **Yes** is selected.
 1. Select **Save** if needed.
 
-1. Select **External Collaboration Settings** on the left
+1. Select **External Collaboration Settings** on the left navigation pane.
 
 1. Under **Guest user access**, review access levels that are available and then select **Guest user access is restricted to properties and memberships of their own directory objects (most restrictive)**.
 
