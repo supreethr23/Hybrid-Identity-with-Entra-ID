@@ -68,5 +68,7 @@
 
 1. Once it is approved in the app, it will redirect to the home page of the azure portal without prompting for password.
 
+## You have successfully completed the lab.
+
 
    
