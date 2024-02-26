@@ -32,29 +32,33 @@
 
    > The multi-factor authentication page opens.
 
-4. Select **Additional cloud-based multifactor authentication settings**.
+4. Select **Additional cloud-based multifactor authentication settings**.If prompted to sign in using at the **Sign in** page, select **<inject key="AzureAdUserEmail"></inject>**
 
-5. In the **multi-factor authentication** page, select **service settings**. Select **Allow users to remember multi-factor authentication on devices they trust**.
+   ![](../media/hybrid01.png)
 
-6. Next to **Number of days users can trust devices for**, enter **30** and then select **save**. 
+6. In the **multi-factor authentication** page, select **service settings**. Select **Allow users to remember multi-factor authentication on devices they trust**.
 
-7. Close the **multi-factor authentication** page.
+7. Next to **Number of days users can trust devices for**, enter **30** and then select **save**. 
 
-8. Navigate back to the **Microsoft Entra admin center** Edge tab and in the navigation pane, select **Users** > **All users**.
+   ![](../media/hybrid02.png)
 
-9. At the top of the user list, select Per-user MFA.
+8. Close the **multi-factor authentication** page.
 
-   > The Per-user MFA page opens.
+9. Navigate back to the **Microsoft Entra admin center** Edge tab and in the navigation pane, select **Users** > **All users**.
 
-12. In the user list, select the check box next to **Edmund Reeve**.
+10. In the users list, at the top of the user list, select Per-user MFA. The Per-user MFA page opens.
 
-13. On the **quick steps** pane, select **Enable**.
+    ![](../media/hybrid03.png)
 
-14. On the **About enabling multi-factor auth** message, select **enable multi-factor auth**.
+13. In the user list, select the check box next to **<inject key="AzureAdUserEmail"></inject>**.
 
-15. On the **Updates successful** message, select **close**. Take note that the **Multi-Factor Auth Status** for Edmund Reeve is now **Enabled**.
+14. In the right navigation pane, on the **quick steps** pane, select **Enable**.
 
-16. Close Microsoft Edge.
+15. On the **About enabling multi-factor auth** message, select **enable multi-factor auth**.
+
+16. On the **Updates successful** message, select **close**. Take note that the **Multi-Factor Auth Status** for Edmund Reeve is now **Enabled**.
+
+17. Close Microsoft Edge.
 
 ### Task 3: Register and Validate MFA 
 
@@ -62,9 +66,9 @@
 
 2. In the address bar, enter **outlook.office.com** and press Enter.
 
-3. On the **Pick an account** page, select **`Edmund_Reeve@yourtenant.onmicrosoft.com`**.
+3. On the **Pick an account** page, select **<inject key="AzureAdUserEmail"></inject>**.
 
-4. On the **Enter password** page, enter the tenant password **Pa55-w.rd!** and select **Sign in**.
+4. On the **Enter password** page, enter the password **<inject key="AzureAdUserPassword"></inject>**.
 
 5. At the **More information required** page, select **Next**. The Keep your account secure page opens.
 
@@ -76,37 +80,41 @@
 
 8. After you receive the verification code as a text message, enter the code where indicated on the **Keep your account secure** page and then select **Next**.
 
-9. On the **Keep your account secure** page, you will receive a message "Great job! You have successfully set up your security info. Choose **Done** to continue signing in." Select **Done**.
+9. On the **Keep your account secure** page, you will receive a message "Verification complete. Your phone has been registered.". Choose **Next** to continue signing in." Select **Done**.
 
-10. At the Stay signed in message, select **No**. 
+10. Close Microsoft Edge window.
 
-    > Outlook on the Web opens to  Edmund Reeve's inbox.
+11. Open a new Microsoft Edge window and enter **outlook.office.com** and press Enter.
 
-11. At the top-right corner, select the **Account manager forEdmund** and then select **Sign out**.
+12. On the **Pick an account** page, select **<inject key="AzureAdUserEmail"></inject>**.
 
-12. Close Microsoft Edge.
+13. On the **Enter password** page, enter the password **<inject key="AzureAdUserPassword"></inject>**.
+
+14. On the verify your identity page choose **Text** option.Now, enter the code that you have received in your registered phone number in the form of an SMS and click **Next**
+
+11. At the Stay signed in message, select **No**.Outlook on the Web opens to  the odl user's inbox.
+
+12. At the top-right corner, select the **Account manager** and then select **Sign out**.
+
+13. Close Microsoft Edge.
 
 ### Task 3: Remove per-user MFA
 
 1. On the taskbar select **Microsoft Edge**, in the address bar type **https://entra.microsoft.com**, and then press **Enter**.
 
-2. Sign in as **<inject key="AzureAdUserEmail"></inject>**, and use the tenant Admin password **<inject key="AzureAdUserPassword"></inject>**, If the **Stay signed in?** prompt appears, select **No**.  
+2. Sign in as **<inject key="AzureAdUserEmail"></inject>**, and use the tenant Admin password **<inject key="AzureAdUserPassword"></inject>**, If the **Stay signed in?** prompt appears, select **No**. The Microsoft Entra admin center opens.
 
-   > The Microsoft Entra admin center opens.
+3. In the Microsoft Entra admin center, in the left navigation pane, select **Users**.
 
-3. In the Microsoft Entra admin center, in the navigation pane, select **Users**.
+4. Select **All users** and then at the top of the results pane select **Per-user MFA**. If prompted to pick an account, choose **<inject key="AzureAdUserEmail"></inject>**. The Per-user MFA page opens.
 
-4. Select **All users** and then at the top of the results pane select **Per-user MFA**. 
-   
-   > The Per-user MFA page opens.
+5. In the user list, select the check box next to **<inject key="AzureAdUserEmail"></inject>**.
 
-5. In the user list, select the check box next to **Edmund Reeve**.
-
-6. On the **quick steps** pane, select **Disable**.
+6. On the **quick steps** in the right pane, select **Disable**.
 
 7. On the **Disable multi-factor authentication?** message, select **yes**.
 
-8. On the **Updates successful** message, select **close**. Take note that the **Multi-Factor Auth Status** for Edmund Reeve is now **Disabled**.
+8. On the **Updates successful** message, select **close**. Take note that the **Multi-Factor Auth Status** for the ODL user  is now **Disabled**.
 
 9. Close Microsoft Edge.
 
@@ -120,15 +128,13 @@
 
 2. In the address bar, enter **outlook.office.com** and press Enter.
 
-4. On the **Pick an account** page, select **`Edmund_Reeve@yourtenant.onmicrosoft.com`**.
+4. On the **Pick an account** page, select **<inject key="AzureAdUserEmail"></inject>**
 
-5. On the **Enter password** page, enter the tenant password **Pa55-w.rd!** and select **Sign in**.
+5.  If prompted to enter the password, in the **Enter password** page, enter the tenant password **<inject key="AzureAdUserPassword"></inject>** and select **Sign in**.
 
-6. On the **Stay signed in** page, select **No**. 
+6. On the **Stay signed in** page, select **No**. Outlook opens to the ODL user's inbox. Take note that only the password was required to sign in to Outlook on the Web as you removed the MFA in the previous Exercise.
 
-   > Outlook opens to Edmund Reeve's inbox. Take note that only the password was required to sign in to Outlook on the Web as you removed the MFA in the previous Exercise.
-
-7. At the top-right corner, select the **Account manager for Edmund Reeve** and then select **Sign out**.
+7. At the top-right corner, select the **Account manager** and then select **Sign out**.
 
 8. Close Microsoft Edge.
 
@@ -142,7 +148,9 @@
 
 3. In the navigation pane, expand **Protection**, and then select **Conditional Access**.
 
-4. On the **Conditional Access** page, select **Policies**, and then select **New policy**.
+4. On the **Conditional Access** page, select **Policies**, and then select **Create New policy**.
+
+    ![](../media/hybrid06.png)
 
 5. On the **New Conditional access policy** page, in the **Name** box, enter **Contoso MFA Policy**.
 
@@ -150,7 +158,7 @@
 
 7. In the Users and groups pane, select the option next to **Select users and groups** and then select the check box next to **Users and groups**.
 
-8. On the **Select users and groups** page, select **Edmund Reeve** and then select **Select**. 
+8. On the **Select users and groups** page, select **<inject key="AzureAdUserEmail"></inject>** and then click **Select**. 
 
     > Note that typically you would specify a group, however for this exercise we will just test the setting on Edmund Reeve.
 
@@ -160,41 +168,39 @@
 
 10. On the **Select** section of the page, click **None**.
 
-11. On the **Select** page, select the check box next to **Office 365** and then click **Select**.
+    ![](../media/hybrid07.png)
 
-12. Under **Access controls**, in the **Grant** section, select **0 controls selected**.
+12. On the **Select** page, search for **Office 365** and select the check box next to it and then click **Select**.
 
-13. On the **Grant** page, select **Grant access**, select the check box next to **Require multifactor authentication**, and then click **Select**.
+13. Under **Access controls**, in the **Grant** section, select **0 controls selected**.
 
-14. Under **Enable policy**, select **On**.
+14. On the **Grant** page, select **Grant access**, select the check box next to **Require multifactor authentication**, and then click **Select**.
 
-15. Select **Create** to create the Contoso MFA Policy. Notice that the policy is listed with a State of **On**.
+15. Under **Enable policy**, select **On**.
 
-16. Close Microsoft Edge.
+16. Select **Create** to create the Contoso MFA Policy. Notice that the policy is listed with a State of **On**.
+
+17. Close Microsoft Edge.
 
 ### Task 3: Validate conditional access MFA
 
-1. On the taskbar, select **Microsoft Edge**.
+1. On the taskbar, select **Microsoft Edge** and open an **InPrivate window**
 
 2. In the address bar, enter **https://outlook.office.com** and press Enter.
 
-3. On the **Pick an account** page, select **`Edmund Reeve@yourtenant.onmicrosoft.com`**.
+3. On the **Pick an account** page, select**<inject key="AzureAdUserEmail"></inject>**.
 
-5. On the **Enter password** page, enter the tenant password **Pa55-w.rd!** and select **Sign in**. 
+5. If prompted,enter the password in the  **Enter password** page, enter the tenant password **<inject key="AzureAdUserPassword"></inject>** and select **Sign in**. 
 
-6. At the Verify your identity prompt, select your phone number.
-
-   > The Enter code dialog box opens.
+6. At the Verify your identity prompt, select your **Text** and enter the code dialog box opens.
 
 7. At the **Enter code** page, enter the code sent to your mobile phone, and then select **Verify**.
 
 8. At the **Protect your account** page, select **skip for now**.
 
-9. At the Stay signed in message, select **No**. 
+9. At the Stay signed message, select **No**. Outlook on the Web opens to the ODL user's inbox.
 
-   > Outlook on the Web opens to Edmund Reeve's inbox.
-
-10. At the top-right corner, select the **Account manager for Edmund Reeve** and then select **Sign out**.
+10. At the top-right corner, select the **Account manager** and then select **Sign out**.
 
 11. Close Microsoft Edge.
 
@@ -202,13 +208,13 @@
 
 1. On the taskbar select **Microsoft Edge**, in the address bar type **https://entra.microsoft.com**, and then press **Enter**.
 
-3. Sign in as user **<inject key="AzureAdUserEmail"></inject>**, and use the tenant Admin password **<inject key="AzureAdUserPassword"></inject>**. If the **Stay signed in?** prompt appears, select **No**. 
+3. Sign in as user **<inject key="AzureAdUserEmail"></inject>**, and use the tenant Admin password **<inject key="AzureAdUserPassword"></inject>**. If the **Stay signed in?** prompt appears, select **No**. The Microsoft Entra admin center opens.
 
-   > The Microsoft Entra admin center opens.
+4. In the Microsoft Entra admin center, in the navigation pane, expand **Protection** and then select **Conditional Access**.
 
-4. In the Microsoft Entra admin center, in the navigation pane, expand **Protect & secure** and then select **Conditional Access**.
+  ![](../media/hybrid08.png) 
 
-5. On the **Conditional Access** page, select **Policies** and then select **Contoso MFA Policy**.
+5. On the **Conditional Access** page, select **Policies** from the left navigation pane and then select **Contoso MFA Policy**.
 
 6. On the **Contoso MFA Policy** page, select **Delete**.
 
