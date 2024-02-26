@@ -212,7 +212,7 @@
 
 4. In the Microsoft Entra admin center, in the navigation pane, expand **Protection** and then select **Conditional Access**.
 
-  ![](../media/hybrid08.png) 
+   ![](../media/hybrid08.png) 
 
 5. On the **Conditional Access** page, select **Policies** from the left navigation pane and then select **Contoso MFA Policy**.
 
