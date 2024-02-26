@@ -10,7 +10,7 @@
   
 3. At the **Sign in** page, enter **<inject key="AzureAdUserEmail"></inject>** and then select **Next**.
 
-4. On the **Enter password** page, enter **<inject key="AzureAdUserPassword"></inject>** and select **Sign in**. At the Edge Save password prompt, select **Save & Turn on**.
+4. If you are prompted to enter the password on the **Enter password** page, enter **<inject key="AzureAdUserPassword"></inject>** and select **Sign in**. At the Edge Save password prompt, select **Save & Turn on**.
 
 5. At the **Stay signed in** prompt, select **No**.
 
