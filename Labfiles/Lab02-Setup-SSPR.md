@@ -62,11 +62,11 @@
 
 3. On the **Pick an account** page, select **Use another account**.
 
-4. On the **Sign in** page, enter **`Miranda_Snider@xxxxxxx.onmicrosoft.com`** and then select **Next**.
+4. On the **Sign in** page, enter **`msnider@xxxxxxx.onmicrosoft.com`** and then select **Next**.
 
   >**Note**: Replace xxxx with the tenantname provided.
 
-5. On the **Enter password** page, enter **Pa55-w.rd!** and then select **Sign in**. If the Microsoft Edge prompts to save the password, select **Save**.
+5. On the **Enter password** page, enter **Pa55-w.rd!** or the password that you have entered and then select **Sign in**. If the Microsoft Edge prompts to save the password, select **Save**.
 
 6. On the **My Account** page, in the navigation pane, select **Password**.
 
