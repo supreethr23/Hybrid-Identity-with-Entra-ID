@@ -14,7 +14,7 @@
 
       - Enable - yes
       - Target - All users
-      - Authentication mode - select Any or Passwordless
+      - Authentication mode - select **Any**
 
 1. Click on **Save** to enable passwordless sign for All users.
 
@@ -45,6 +45,8 @@
 1. Select **Register** to register the device.
 
 1. Click on **Finish** after the setup completion.
+
+   >**Note**: Please wait for about 5 mins and proceed with next task.
 
 ### Task 4: Validate the passwordless signin
 
