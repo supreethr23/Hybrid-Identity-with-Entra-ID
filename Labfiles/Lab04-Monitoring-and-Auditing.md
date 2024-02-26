@@ -59,7 +59,9 @@ In this task, you will create a Log Analytics workspace for to store the log inf
   ```
    AuditLogs
   ```
+   ![](../media/lab4-5.png)
 
   ```
    SigninLogs
   ```
+   ![](../media/lab4-6.png)
