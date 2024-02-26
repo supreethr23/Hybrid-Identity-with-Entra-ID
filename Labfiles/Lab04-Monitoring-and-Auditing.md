@@ -4,25 +4,34 @@
 
 In this task, you will create a Log Analytics workspace for to store the log information and analysing the machines onboarded through Azure Arc.
 
-1. Sign in to https://portal.azure.com and in the Search bar of the Azure portal, type **Log Analytics(1)**, then select **Log Analytics workspaces(2)**.
+1. Sign in to https://portal.azure.com using below credentials.
+
+    - Username : **<inject key="AzureAdUserEmail"></inject>**
+    - Password : **<inject key="AzureAdUserPassword"></inject>**
+
+1. In the Search bar of the Azure portal, type **Log Analytics(1)**, then select **Log Analytics workspaces(2)**.
 
 1. Select **+ Create** from the command bar.
     
-1. Select Resource Group from the drop down(avs-rg).
-
 1. On the Create Log Analytics workspace page, add the below settings and click on **Review + Create (4)**.
 
       | Setting | Value|
       |----------|--------|
-      | Resource Group | **LabRG-<inject key="DeploymentID"></inject>** (1)|
+      | Resource Group | **hybrid-rg** (1)|
       | Name | **log-analytics<inject key="DeploymentID"></inject>** (2)|
       | Region | **East US** (3)|
 
+   ![](../media/lab4-1.png)
+
 1. Once the workspace validation has passed, select **Create**. Wait for the new workspace to be provisioned, this may take a few minutes.
+
+   ![](../media/lab4-2.png)
 
 ## Task 2 - Add Diagnostic setting to collect audit logs
 
 1. Navigate to Microsoft Entra ID, and select **Diagnostic settings** under Monitoring section.
+
+   ![](../media/lab4-3.png)
 
 1. Click on **+Add diagnostic setting** and provide the below settings
 
@@ -30,6 +39,9 @@ In this task, you will create a Log Analytics workspace for to store the log inf
    -----------|---------
    | Diagnostic setting name | **Logsinfo** |
    |Logs | select **Auditlogs** and **signinlogs** |
+
+   ![](../media/lab4-4.png)
+
 1. On **Destination details**, select the **Send to Log analytics checkbox** and make sure that log analytics workspace which is created earlier is selected.
 
 1. Click on **Save**.
