@@ -1,6 +1,6 @@
 # Lab 2: Configuring Self-service password reset for user accounts in Azure AD
 
-### Task 1: Configure password writeback and Password maximum age policy. 
+### Task 1: Configure password writeback and Password minimum age policy. 
 
 1. Click on the start button and open the Azure AD Connect application. 
 
@@ -20,7 +20,7 @@
 
 10. On the **Configuration complete** page, select **Exit**.
 
-11. Open CMD and run the below command to update the maximum password age policy to 0.
+11. Open CMD and run the below command to update the minimum password age policy to 0.
 
       ```bash
         secedit /configure /cfg %windir%\inf\defltbase.inf /db defltbase.sdb /verbose
