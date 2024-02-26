@@ -1,8 +1,8 @@
 # Lab 2: Configuring Self-service password reset for user accounts in Azure AD
 
-### Task 1: Configure password writeback
+### Task 1: Configure password writeback and Password maximum age policy. 
 
-1. Go to downloads, double-click **Azure AD Connect**.
+1. Click on the start button and open the Azure AD Connect application. 
 
 3. On the **Welcome to Azure AD Connect** page, select **Configure**.
 
@@ -20,6 +20,15 @@
 
 10. On the **Configuration complete** page, select **Exit**.
 
+11. Open CMD and run the below command to update the maximum password age policy to 0.
+
+      ```bash
+        secedit /configure /cfg %windir%\inf\defltbase.inf /db defltbase.sdb /verbose
+
+      ```
+
+12. Once updated, restart your JumpVM and verify if the policy is updated, navigate to Local Group policy -> expand Windows Setting -> Account Policies -> Password Policy. The Minimum Password Age should be set to 0.
+
 ### Task 2: Enable self-service password reset
 
 1. On the taskbar select **Microsoft Edge**, in the address bar type **https://entra.microsoft.com/**, and then press **Enter**.
@@ -28,7 +37,7 @@
 
    > The Microsoft Entra admin center opens.
 
-3. In the Microsoft Entra admin center, Navigate to the Search resources section of the site.
+3. In the Microsoft Entra admin center, Navigate to the Search Resources section of the site.
 
 4. In the search box, type **password reset**, and then select **Password reset**.
 
