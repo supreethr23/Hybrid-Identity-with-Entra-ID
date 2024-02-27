@@ -25,8 +25,6 @@
 
 7. Under **Select member(s),** select **No member selected**.
 
-   ![](../media/lab3-4.png)
-
 8. In the Select members pane, select the following users and then chose **Select**.
     | Name           | 
       | -------------- | 
@@ -34,7 +32,9 @@
       | Miranda Snider | 
       | Allan Deyoung  | 
       | Joni Sherman   | 
-    
+
+   ![](../media/lab3-4.png)    
+
 9. Select **Next**.
 
 10. On the **Settings** tab, under **Assignment type**, select **Eligible**.
