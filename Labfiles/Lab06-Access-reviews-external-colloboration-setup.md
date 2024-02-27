@@ -136,7 +136,7 @@ In this task, you will configure an access review in Microsoft Entra ID to revie
 
 1. Sign in to the https://entra.microsoft.com
 
-1. On the **Pick an account** page, select**<inject key="AzureAdUserEmail"></inject>**.
+1. On the **Pick an account** page, select **<inject key="AzureAdUserEmail"></inject>**.
 
 1. Select **Identity** then select **Users**.
 
