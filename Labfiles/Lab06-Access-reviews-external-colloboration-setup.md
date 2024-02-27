@@ -70,7 +70,7 @@ In this task, you will configure an access review in Microsoft Entra ID to revie
 
 1. Verify the settings once again and select **Create** to create the access review.
 
-### Task 2: Review access to groups and applications in access reviews
+### Task 3: Review access to groups and applications in access reviews
 
 1. Sign in to My Access at https://myaccess.microsoft.com/
    
