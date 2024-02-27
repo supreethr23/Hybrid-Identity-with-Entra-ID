@@ -135,9 +135,7 @@
 
    ![](../media/lab1-28.png)
 
-1. On the **Azure AD sign-in configuration** page, ensure that in the **USER PRINCIPAL NAME** drop-down list, the **userPrincipalName** value is selected. 
-
-1. Select **Continue without matching all UPN suffixes to verified domains** and then select **Next**.
+1. On the **Azure AD sign-in configuration** page, select **Continue without matching all UPN suffixes to verified domains** checkbox and then select **Next**.
 
    ![](../media/lab1-29.png)
 
