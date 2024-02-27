@@ -12,6 +12,8 @@
 
 1. click on **+New group**
 
+   ![](../media/lab6-1.png)
+
 1. Create a group based on the below settings
 
    | Setting | Value |
@@ -22,6 +24,8 @@
    | Microsoft Entra roles can be assigned to the group | yes |
    | Owners | Click on **no owners selected** and select **ODL_User** from the list |
    | Members | Click on **no members selected** and select **Allan**, **Jonis**, **Mirinda**, **Edmund** and also include **ODL_User** from the list |
+
+   ![](../media/lab6-2.png)
 
 1. Click on **Create** and select **Yes**
 
@@ -48,7 +52,7 @@ In this task, you will configure an access review in Microsoft Entra ID to revie
    | Groups | search and select **All users** from the list (3)|
    | Scope | All users (4)|
 
-   ![](../media/hybrid13.png)
+   ![](../media/lab6-3.png)
 
 1. Select **Next:Reviews**
 
@@ -58,6 +62,8 @@ In this task, you will configure an access review in Microsoft Entra ID to revie
    | Users or groups | click **+ Select Reviewers** and select **ODL_USER XXXX** from the list |
    | Review Recurrence | Monthly |
 
+   ![](../media/lab6-4.png)
+
 1. Select **Next:Settings**
 
    | Setting | Value |
@@ -66,7 +72,11 @@ In this task, you will configure an access review in Microsoft Entra ID to revie
    | if reviewers dont respond | Take recommendation |
    | At end of review, send notification to | click **+ Select User(s) or group(s)** and select **ODL_USER XXXX** from the list  |
 
+   ![](../media/lab6-5.png)
+
 1. Select **Next:Review + Create** and enter **AccessreviewforAllusers** to the **Review name**
+
+   ![](../media/lab6-6.png)
 
 1. Verify the settings once again and select **Create** to create the access review.
 
