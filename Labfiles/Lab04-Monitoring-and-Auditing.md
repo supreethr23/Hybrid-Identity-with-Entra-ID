@@ -18,7 +18,7 @@ In this task, you will create a Log Analytics workspace for to store the log inf
       | Setting | Value|
       |----------|--------|
       | Resource Group | **hybrid-rg** (1)|
-      | Name | **log-analytics<inject key="DeploymentID"enableCopy="false"/></inject>** (2)|
+      | Name | **log-analytics<inject key="DeploymentID" enableCopy="false"/>** (2)|
       | Region | **East US** (3)|
 
    ![](../media/lab4-1.png)
