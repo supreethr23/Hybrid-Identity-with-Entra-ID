@@ -64,7 +64,7 @@ In this task, you will configure an access review in Microsoft Entra ID to revie
    |--------|------|
    | Auto apply results to resource | Selected the checkbox |
    | if reviewers dont respond | Take recommendation |
-   | At end of review, send notification to | click **+ Select Recipients** and select **ODL_USER XXXX** from the list  |
+   | At end of review, send notification to | click **+ Select User(s) or group(s)** and select **ODL_USER XXXX** from the list  |
 
 1. Select **Next:Review + Create** and enter **AccessreviewforAllusers** to the **Review name**
 
