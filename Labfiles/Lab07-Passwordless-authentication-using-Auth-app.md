@@ -26,8 +26,6 @@
 
 ### Task 2: Configure signin methods to the user
  
-  >**Note**: Skip this task, if the ODL user account already has a authenticator app configured in previous lab.
-
 1. Navigate to https://portal.office.com using the credentials provided in the environment details page.
 
 1. Select the profile icon located at the top right corner and select **View account**.
@@ -42,7 +40,7 @@
 
 1. Open Microsoft Authenticator which was installed in your mobile, click on **Add account** > **Work or school account**.
 
-1. On **Add work or school account**, select **Scan a QR code** to add the account.
+1. On **Add work or school account**, select **Scan a QR code** to scan the QR code from the browser to add the account.
 
 1. Once the account is added, on the browser page showing QR Code, click **Next** to approve this request using Authenticator app and to add this method in signin page.
 
