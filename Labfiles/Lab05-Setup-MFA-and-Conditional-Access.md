@@ -160,7 +160,7 @@
 
 8. On the **Select users and groups** page, select **<inject key="AzureAdUserEmail"></inject>** and then click **Select**. 
 
-    > Note that typically you would specify a group, however for this exercise we will just test the setting on Edmund Reeve.
+    > Note that typically you would specify a group, however for this exercise we will just test the setting on ODL_User.
 
 9. Select **No target resources selected** and then click **Select apps**.
 
