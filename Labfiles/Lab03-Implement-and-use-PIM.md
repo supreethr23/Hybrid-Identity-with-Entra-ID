@@ -7,7 +7,7 @@
    - Username : **<inject key="AzureAdUserEmail"></inject>**
    - Password : **<inject key="AzureAdUserPassword"></inject>**
 
-2. Search for and then select **Privileged Identity Management.**
+2. Search for and then select **Microsoft Entra Privileged Identity Management.**
 
 3. In the Privileged Identity Management page, in the left navigation, select **Micrososft Entra roles.**
 
