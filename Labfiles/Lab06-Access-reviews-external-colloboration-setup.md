@@ -72,7 +72,7 @@ In this task, you will configure an access review in Microsoft Entra ID to revie
 
 ### Task 2: Review access to groups and applications in access reviews
 
-1. Sign in to My Access at [myaccess](https://myaccess.microsoft.com/)
+1. Sign in to My Access at https://myaccess.microsoft.com/
    
 1. On the **Pick an account** page, select **<inject key="AzureAdUserEmail"></inject>**.
 
@@ -134,7 +134,7 @@ In this task, you will configure an access review in Microsoft Entra ID to revie
 
 ### Task 1 - Enable Guest Users to perform self service sign-up
 
-1. Sign in to the [entra](https://entra.microsoft.com)
+1. Sign in to the https://entra.microsoft.com
 
 1. On the **Pick an account** page, select**<inject key="AzureAdUserEmail"></inject>**.
 
