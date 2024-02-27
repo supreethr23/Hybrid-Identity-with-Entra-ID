@@ -15,13 +15,13 @@
 1. Create a group based on the below settings
 
    | Setting | Value |
-   ----------|--------
-  | Group type | Microsoft 365 |
-  | Group name | AllUsers |
-  | Group description | Similar access group |
-  | Microsoft Entra roles can be assigned to the group | yes |
-  | Owners | Click on **no owners selected** and select **ODL_User** from the list |
-  | Members | Click on **no members selected** and select **Allan**, **Jonis**, **Mirinda**, **Edmund** and also include **ODL_User** from the list |
+   |----------|--------|
+   | Group type | Microsoft 365 |
+   | Group name | AllUsers |
+   | Group description | Similar access group |
+   | Microsoft Entra roles can be assigned to the group | yes |
+   | Owners | Click on **no owners selected** and select **ODL_User** from the list |
+   | Members | Click on **no members selected** and select **Allan**, **Jonis**, **Mirinda**, **Edmund** and also include **ODL_User** from the list |
 
 1. Click on **Create** and select **Yes**
 
