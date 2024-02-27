@@ -56,7 +56,7 @@
 
 15. On the **About enabling multi-factor auth** message, select **enable multi-factor auth**.
 
-16. On the **Updates successful** message, select **close**. Take note that the **Multi-Factor Auth Status** for Edmund Reeve is now **Enabled**.
+16. On the **Updates successful** message, select **close**. Take note that the **Multi-Factor Auth Status** for **<inject key="AzureAdUserEmail"></inject>** is now **Enabled**.
 
 17. Close Microsoft Edge.
 
