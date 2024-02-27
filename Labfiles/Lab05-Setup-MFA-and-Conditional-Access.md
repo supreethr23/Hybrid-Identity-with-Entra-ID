@@ -90,7 +90,7 @@
 
 13. On the **Enter password** page, enter the password **<inject key="AzureAdUserPassword"></inject>**.
 
-14. On the verify your identity page choose **Text** option.Now, enter the code that you have received in your registered phone number in the form of an SMS and click **Next**
+14. On the verify your identity page choose **Text** option.Now, enter the code that you have received in your registered phone number in the form of an SMS and click **Verify**
 
 11. At the Stay signed in message, select **No**.Outlook on the Web opens to  the odl user's inbox.
 
