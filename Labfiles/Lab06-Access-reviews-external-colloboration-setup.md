@@ -2,7 +2,30 @@
 
 ## Exercise 1: Configure Access reviews
 
-### Task 1: Configure access review
+### Task 1: Create a group
+
+1. On the taskbar select **Microsoft Edge**, in the address bar type **https://portal.azure.com**, and then press **Enter**.
+
+1. On the **Pick an account** page, select **<inject key="AzureAdUserEmail"></inject>**.
+
+1. Search and select **Groups**
+
+1. click on **+New group**
+
+1. Create a group based on the below settings
+
+   | Setting | Value |
+   ----------|--------
+  | Group type | Microsoft 365 |
+  | Group name | AllUsers |
+  | Group description | Similar access group |
+  | Microsoft Entra roles can be assigned to the group | yes |
+  | Owners | Click on **no owners selected** and select **ODL_User** from the list |
+  | Members | Click on **no members selected** and select **Allan**, **Jonis**, **Mirinda**, **Edmund** and also include **ODL_User** from the list |
+
+1. Click on **Create** and select **Yes**
+
+### Task 2: Configure access review
 
 In this task, you will configure an access review in Microsoft Entra ID to review access permissions for Teams and Groups. The access review will include all users and will recur monthly. Reviewers will be selected from a specific user group, and notifications will be sent to all users at the end of the review. The review will auto-apply results to resources and take recommendations if reviewers don't respond. Ensure the settings are accurate before creating the access review.
 
