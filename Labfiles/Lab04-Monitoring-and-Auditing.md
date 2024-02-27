@@ -9,7 +9,7 @@ In this task, you will create a Log Analytics workspace for to store the log inf
     - Username : **<inject key="AzureAdUserEmail"></inject>**
     - Password : **<inject key="AzureAdUserPassword"></inject>**
 
-1. In the Search bar of the Azure portal, type **Log Analytics(1)**, then select **Log Analytics workspaces(2)**.
+1. In the Search bar of the Azure portal, type **Log Analytics**, then select **Log Analytics workspaces**.
 
 1. Select **+ Create** from the command bar.
     
