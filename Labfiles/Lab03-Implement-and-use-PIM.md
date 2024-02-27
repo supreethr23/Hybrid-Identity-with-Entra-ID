@@ -2,7 +2,10 @@
 
 ## Task 1 - Assign Azure resource roles
 
-1. Sign in to [https://entra.microsoft.com](https://entra.microsoft.com) using a Global Administrator account.
+1. Sign in to [https://entra.microsoft.com](https://entra.microsoft.com) using ODL_User credentials.
+
+   - Username : **<inject key="AzureAdUserEmail"></inject>**
+   - Password : **<inject key="AzureAdUserPassword"></inject>**
 
 2. Search for and then select **Privileged Identity Management.**
 
