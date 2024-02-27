@@ -84,7 +84,7 @@
 
 ## Task 2: Adding users or groups in your Domain Controller
 
-1. Go to Start > Administrative Tools > Active Directory Users and Computers.
+1. Go to Start > Windows Administrative Tools > Active Directory Users and Computers.
 
    ![](../media/lab1-19.png)
 
@@ -92,7 +92,7 @@
 
    ![](../media/lab1-20.png)
 
-1. To create a new VDI user, Click **New** and select **User** and create the users with the following info.
+1. To create a new user, Click **user icon** and create the users with the following info.
 
       | Name           | User Name                | Password   | 
       | -------------- | ------------------------ | ---------- |
@@ -111,7 +111,7 @@
 
 1. On the taskbar, select **Microsoft Edge**.
 
-1. In the address bar, enter `http://www.microsoft.com/en-us/download/details.aspx?id=47594`.
+1. In the address bar, enter `https://www.microsoft.com/en-us/download/details.aspx?id=47594`.
 
 1. On the Azure AD Connect V2 section, select **Download**. 
 
