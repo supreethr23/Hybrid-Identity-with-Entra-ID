@@ -77,7 +77,7 @@ Follow these steps to update or remove an existing role assignment.
 
      - Assignment type : Active
      - Permanently eligible : Uncheck the box
-     - Assignment ends : Provide the next day
+     - Assignment ends : Enter the next date
      - Enter Justification : Test
   
    ![](../media/lab3-8.png)
