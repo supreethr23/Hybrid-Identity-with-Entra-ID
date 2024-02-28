@@ -1,0 +1,17 @@
+[
+   {
+    "Name": "Hybrid Identity with Entra ID",
+    "Language": "English",
+    "BaseURL": "https://github.com/CloudLabsAI-Azure/Hybrid-Identity-with-Entra-ID",
+    "Files": [
+      {
+        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Hybrid-Identity-with-Entra-ID/selfpaced/Labfiles/Getting-started.md",
+        "Order": 1
+        },
+       {
+        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Hybrid-Identity-with-Entra-ID/selfpaced/Labfiles/Lab01-Setup-Hybrid-Identity-with-On-Prem-AD-and-Entra-ID.md",
+        "Order": 2
+        }
+     ]  
+   }
+]
