@@ -1,6 +1,23 @@
 # Lab 1: Setup Hybrid Identity with On-Prem AD and Entra ID
 
+## Lab Overview 
+This lab focuses on setting up a hybrid identity solution using on-premises Active Directory (AD) and Microsoft Entra ID. It guides users through the process of configuring Active Directory on a Windows Server, adding users/groups to the domain controller, and configuring directory synchronization with Azure AD Connect to sync identities between on-premises AD and Azure AD.
+
+## Lab Scenario
+In this lab scenario, you are tasked with setting up a hybrid identity solution to seamlessly manage user identities across on-premises and cloud environments. By configuring Active Directory on a Windows Server, adding users/groups, and setting up directory synchronization with Azure AD Connect, organizations can achieve centralized identity management and enable single sign-on capabilities for their users.
+
+## Lab objectives
+In this lab, you will perform the following:
+
+- Task 1: Active Directory Setup
+- Task 2: Adding users or groups in your Domain Controller
+- Task 3: Configure directory synchronization with Azure AD Connect
+- Task 4: Verify synchronization in Azure AD
+
+## Estimated timing: 90 minutes
+
 ## Task 1: Active Directory Setup
+In this task, you will set up Active Directory Domain Services on a Windows Server. This involves launching Server Manager, adding roles and features, selecting Active Directory Domain Services, and promoting the server to a domain controller. By completing this task, you will establish the foundation for managing users, groups, and other objects within your domain.
 
 1. Once the VM is launched, press the Windows Logo Key and search for **Server Manager**. An application should show up on the list. Click on it to launch the program.
  
@@ -83,6 +100,7 @@
 1. Congratulations! You have successfully set up Active Directory on your Windows Server. Next, your server machine will restart once the promotion is successfully completed. You will lose the access to the LabVM for a while until restarts completes.
 
 ## Task 2: Adding users or groups in your Domain Controller
+In this task, you will add user accounts to the domain controller in Active Directory Users and Computers. You will create new user accounts with specified names, usernames, and passwords. By adding users to the domain controller, you will ensure that they have access to resources within the domain and can authenticate against Active Directory.
 
 1. Go to Start > Windows Administrative Tools > Active Directory Users and Computers.
 
@@ -112,6 +130,7 @@
     ![](../media/lab1-23.png)
 
 ## Task 3: Configure directory synchronization with Azure AD Connect
+In this task, you will configure directory synchronization between your on-premises Active Directory and Azure Active Directory using Azure AD Connect. This involves downloading and installing Azure AD Connect, providing necessary credentials for synchronization, and configuring synchronization options. By completing this task, you will enable the seamless synchronization of user identities between on-premises AD and Azure AD.
 
 1. On the taskbar, select **Microsoft Edge**.
 
@@ -155,6 +174,7 @@
 1. Close all open windows.
 
 ## Task 4: Verify synchronization in Azure AD
+In this task, you will verify the synchronization of identities in Azure Active Directory. You will access the Microsoft 365 admin center, navigate to the Identity section, and verify that user accounts synchronized from on-premises AD are visible in Azure AD. By confirming successful synchronization, you will ensure that users can access cloud-based resources using their on-premises credentials.
 
 1. On the taskbar, select **Microsoft Edge**.
 
