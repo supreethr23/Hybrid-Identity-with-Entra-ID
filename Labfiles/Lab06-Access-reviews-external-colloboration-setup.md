@@ -19,7 +19,7 @@
    | Setting | Value |
    |----------|--------|
    | Group type | Microsoft 365 |
-   | Group name | AllUsers |
+   | Group name | All Users |
    | Group description | Similar access group |
    | Microsoft Entra roles can be assigned to the group | yes |
    | Owners | Click on **no owners selected** and select **ODL_User** from the list |
