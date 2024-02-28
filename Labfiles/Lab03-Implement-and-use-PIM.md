@@ -63,10 +63,21 @@ Follow these steps to update or remove an existing role assignment.
 
 4. On the **Eligible assignments** tab, in the Action column, review the available options.
 
-6. Select **Remove**.
+6. Select **Remove** to remove the user from eligible assignments.
 
    ![](../media/lab3-5.png)
 
 7. In the **Remove** dialog box, review the information and then select **Yes**.
 
    ![](../media/lab3-6.png)
+
+8. In order to make the eligible assignment to active for any user, select **Update** from Action list.
+
+9. Provide the below details in **Membership settings** and click on **Save**
+
+     - Assignment type : Active
+     - Permanently eligible : Uncheck the box
+     - Assignment ends : Provide the next day
+     - Enter Justification : Test
+  
+   ![](../media/lab3-8.png)
