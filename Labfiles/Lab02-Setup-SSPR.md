@@ -46,14 +46,14 @@
 
   >**Note**: Replace xxxx with the tenantname provided.
 
-5. On the **Enter password** page, enter **Pa55-w.rd!** or the password that you have entered and then select **Sign in**. If the Microsoft Edge prompts to save the password, select **Save**.
+5. On the **Enter password** page, enter **<inject key="LabVM Admin Password"></inject>** or the password that you have entered and then select **Sign in**. If the Microsoft Edge prompts to save the password, select **Save**.
 
 6. On the **My Account** page, in the navigation pane, select **Password**.
 
     ![](../media/lab2-8.png)
 
 7. On the **Change password** page, enter the following information and then select **submit**:
-     - Old password: **Pa55-w.rd!**
+     - Old password: **<inject key="LabVM Admin Password"></inject>**
      - Create new password: **Pa55w.rd!1234**
      - Confirm new password: **Pa55w.rd!1234**
 
