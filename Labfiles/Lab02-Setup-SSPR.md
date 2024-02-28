@@ -1,5 +1,21 @@
 # Lab 2: Configuring Self-service password reset for user accounts in Azure AD
 
+## Lab Overview 
+
+This lab focuses on configuring Azure AD Connect with password writeback, updating the minimum password age policy to 0, enabling self-service password reset with authentication methods via Microsoft Entra Admin Center, and validating by changing a password via the My Account page in Microsoft Edge.
+
+## Lab Scenario
+
+In this lab scenario, you are tasked with setting up self-service password reset in Azure AD, employees can securely reset their passwords without IT intervention, improving productivity. Additionally, enabling password writeback ensures synchronization between on-premises and cloud environments, enhancing security and user experience.
+
+## Lab objectives
+
+In this lab, you will perform the following:
+
+- Task 1: Configure password writeback and Password minimum age policy. 
+- Task 2: Enable self-service password reset
+- Task 3: Validate self-service password reset
+
 ### Task 1: Configure password writeback and Password minimum age policy. 
 
 1. Select the **Azure AD Connect** application from the desktop
