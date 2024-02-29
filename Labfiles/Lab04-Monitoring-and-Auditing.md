@@ -1,5 +1,20 @@
 # Lab 4: Monitor and audit Entra ID for security and compliance purposes
 
+## Lab Overview 
+This lab focuses on setting up a  Log Analytics workspace in Azure to store and analyze logs from Azure Arc-enabled machines. Configure diagnostic settings in Microsoft Entra ID to collect audit and sign-in logs, directing them to the created workspace.
+
+## Lab Scenario
+In this lab scenario, you are tasked with creating Log Analytics with Entra ID. Administrators can centrally collect and analyze audit and sign-in logs from various sources, ensuring adherence to security policies and facilitating timely incident response. 
+
+## Lab objectives
+In this lab, you will perform the following:
+
+- Task 1: Create Log Analytics Workspace
+- Task 2: Add Diagnostic setting to collect audit logs
+- Task 3: Verify the logs in the workspace
+
+## Estimated timing: 40 mins
+
 ## Task 1 - Create Log Analytics Workspace
 
 In this task, you will create a Log Analytics workspace for to store the log information and analysing the machines onboarded through Azure Arc.
