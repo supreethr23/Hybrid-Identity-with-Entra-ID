@@ -34,7 +34,7 @@
 
 15. Close Microsoft Edge.
 
-### Task 3: Validate self-service password reset
+### Task 2: Validate self-service password reset
 
 1. On the taskbar, select **Microsoft Edge**.
 
