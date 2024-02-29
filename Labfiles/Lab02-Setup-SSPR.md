@@ -1,5 +1,22 @@
 # Lab 2: Configuring Self-service password reset for user accounts in Entra ID
 
+## Lab Overview 
+
+This lab focuses on configuring Azure AD Connect with password writeback, updating the minimum password age policy to 0, enabling self-service password reset with authentication methods via Microsoft Entra Admin Center, and validating by changing a password via the My Account page in Microsoft Edge.
+
+## Lab Scenario
+
+In this lab scenario, you are tasked with setting up self-service password reset in Azure AD, employees can securely reset their passwords without IT intervention, improving productivity. Additionally, enabling password writeback ensures synchronization between on-premises and cloud environments, enhancing security and user experience.
+
+## Lab objectives
+
+In this lab, you will perform the following:
+
+- Task 1: Enable self-service password reset
+- Task 2: Validate self-service password reset
+
+## Estimated timing: 40 mins
+
 ### Task 1: Enable self-service password reset
 
 1. On the taskbar select **Microsoft Edge**, in the address bar type **https://entra.microsoft.com/**, and then press **Enter**.
