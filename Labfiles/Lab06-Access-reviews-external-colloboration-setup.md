@@ -13,7 +13,6 @@ In this lab, you will perform the following:
   - Task 1: Create a group
   - Task 2: Configure access review
   - Task 3: Review access to groups and applications in access reviews
-  - Task 4:Remove per-user MFA 
 - Exercise 2: Configure external collaboration settings
   - Task 1: Enable Guest Users to perform self service sign-up
   - Task 2: Configure external collaboration settings
