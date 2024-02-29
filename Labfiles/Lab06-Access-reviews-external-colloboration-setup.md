@@ -8,6 +8,8 @@
 
 1. On the **Pick an account** page, select **<inject key="AzureAdUserEmail"></inject>**.
 
+1. If you are prompted to enter the password on the **Enter password** page, enter **<inject key="AzureAdUserPassword"></inject>** and select **Sign in**.
+
 1. Search and select **Groups**
 
 1. click on **+New group**
