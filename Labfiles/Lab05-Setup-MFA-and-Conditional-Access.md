@@ -1,5 +1,27 @@
 # Lab 5: Setup MFA and Conditional Access
 
+## Lab Overview 
+This lab focuses on setting up multi-factor authentication (MFA) and conditional access policies to enhance security.Initially, per-user MFA is configured for Outlook on the Web via the Microsoft Entra admin center. Then, conditional access policies with MFA are established for Office 365 apps, ensuring secure access. 
+
+
+## Lab Scenario
+In this lab scenario, you are tasked with setting up  heightened security measures required to safeguard sensitive data. By implementing multi-factor authentication (MFA) and conditional access policies, administrators ensure that only authorized users can access Office 365 apps securely, mitigating risks of unauthorized access and data breaches.
+
+## Lab objectives
+In this lab, you will perform the following:
+
+- Exercise 1: Configure per-user multi-factor authentication
+  - Task 1: Validate sign-in before enabling MFA
+  - Task 2: Enable MFA for a user
+  - Task 3: Register and Validate MFA
+  - Task 4:Remove per-user MFA 
+- Exercise 2: Configure multi-factor authentication using conditional access
+  - Task 1: Validate sign-in before enabling conditional access with MFA
+  - Task 2: Configure conditional access with MFA
+  - Task 3: Validate conditional access MFA
+  - Task 4: Remove conditional access MFA 
+
+## Estimated timing: 45 mins
 ## Exercise 1: Configure per-user multi-factor authentication
 
 ### Task 1: Validate sign-in before enabling MFA
