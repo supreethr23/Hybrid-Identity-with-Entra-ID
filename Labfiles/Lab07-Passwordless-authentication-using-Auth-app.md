@@ -4,6 +4,20 @@
 
 **Pre-requisities** - Install the Microsoft Authenticator app in mobile
 
+## Lab Overview 
+This lab focuses on setting up passwordless sign-in using the Microsoft Authenticator app. They'll enable passwordless phone sign-in authentication methods, configure sign-in methods for users, and validate the passwordless sign-in process. 
+
+## Lab Scenario
+In this lab scenario, you are tasked with setting up  a corporate environment, employees are increasingly concerned about security and convenience in accessing company resources. To address this, the IT department has decided to implement passwordless sign-in using the Microsoft Authenticator app. Employees will be able to securely access company systems without the hassle of remembering complex passwords, enhancing both security and user experience.
+
+## Lab objectives
+In this lab, you will glance through the following:
+
+  - Task 1: Enable passwordless phone sign-in authentication methods
+  - Task 2: Configure signin methods to the user
+  - Task 3: Enable Phone signin
+  - Task 4: Validate the passwordless signin
+
 ### Task 1: Enable passwordless phone sign-in authentication methods
 
 1. Sign in to https://entra.microsoft.com/.
