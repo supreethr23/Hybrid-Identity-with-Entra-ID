@@ -92,13 +92,6 @@ In this task, you will configure an access review in Microsoft Entra ID to revie
 
    ![](../media/hybrid12.png)
 
-1. After you open My Access under Groups and Apps, you can see:
-
-      * Name: The name of the access review.
-      * Due: The due date for the review. After this date, denied users could be removed from the group or app being reviewed.
-      * Resource: The name of the resource under review.
-      * Progress: The number of users reviewed over the total number of users part of this access review.
-
 1. Select the name of the  access review that you created to get started.
 
 1. After it opens, you'll see the  of user in the scope for the access review.
