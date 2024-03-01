@@ -15,6 +15,10 @@ In this lab, you will perform the following:
 
 ## Estimated timing: 40 mins
 
+## Architecture Diagram
+
+  ![Lab overview.](../media/Arch_diagram_Lab_04.png)
+
 ## Task 1 - Create Log Analytics Workspace
 
 In this task, you will create a Log Analytics workspace for to store the log information and analysing the machines onboarded through Azure Arc.
