@@ -19,6 +19,10 @@ In this lab, you will perform the following:
 
 ## Estimated timing: 40 minutes
 
+## Architecture Diagram
+
+  ![Lab overview.](../media/Arch_diagram_Lab_06.png)
+
 ## Exercise 1: Configure Access reviews
 
 ### Task 1: Create a group
