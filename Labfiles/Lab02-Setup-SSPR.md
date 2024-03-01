@@ -17,6 +17,10 @@ In this lab, you will perform the following:
 
 ## Estimated timing: 40 mins
 
+## Architecture Diagram
+
+  ![Lab overview.](../media/Arch_diagram_Lab_02.png)
+
 ### Task 1: Enable self-service password reset
 
 1. On the taskbar select **Microsoft Edge**, in the address bar type **https://entra.microsoft.com/**, and then press **Enter**.
