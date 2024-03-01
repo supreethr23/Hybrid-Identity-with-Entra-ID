@@ -15,6 +15,10 @@ In this lab, you will perform the following:
 
 ## Estimated timing: 45 mins
 
+## Architecture Diagram
+
+  ![Lab overview.](../media/Arch_diagram_Lab_03.png)
+
 ## Task 1 - Assign Azure resource roles
 
 1. Sign in to [https://entra.microsoft.com](https://entra.microsoft.com) using ODL_User credentials.
