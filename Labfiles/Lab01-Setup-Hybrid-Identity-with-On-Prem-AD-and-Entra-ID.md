@@ -16,6 +16,10 @@ In this lab, you will perform the following:
 
 ## Estimated timing: 90 minutes
 
+## Architecture Diagram
+
+  ![Lab overview.](../media/Arch_diagram_Lab_01.png)
+
 ## Task 1: Active Directory Setup
 In this task, you will set up Active Directory Domain Services on a Windows Server. This involves launching Server Manager, adding roles and features, selecting Active Directory Domain Services, and promoting the server to a domain controller. By completing this task, you will establish the foundation for managing users, groups, and other objects within your domain.
 
