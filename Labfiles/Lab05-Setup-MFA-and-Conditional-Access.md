@@ -22,6 +22,12 @@ In this lab, you will perform the following:
   - Task 4: Remove conditional access MFA 
 
 ## Estimated timing: 45 mins
+
+## Architecture Diagram
+
+  ![Lab overview.](../media/Arch_diagram_Lab_05.png)
+
+
 ## Exercise 1: Configure per-user multi-factor authentication
 
 ### Task 1: Validate sign-in before enabling MFA
