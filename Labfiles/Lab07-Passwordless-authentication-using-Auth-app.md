@@ -18,6 +18,11 @@ In this lab, you will glance through the following:
   - Task 3: Enable Phone signin
   - Task 4: Validate the passwordless signin
 
+## Architecture Diagram
+
+  ![Lab overview.](../media/Arch_diagram_Lab_07.png)
+
+
 ### Task 1: Enable passwordless phone sign-in authentication methods
 
 1. Sign in to https://entra.microsoft.com/.
