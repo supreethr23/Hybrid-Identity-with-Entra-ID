@@ -19,7 +19,7 @@ In this lab, you will perform the following:
 
 ## Architecture Diagram
 
-  ![Lab overview.](../media/Arch_diagram_Lab_02.png)
+  ![Lab overview.](../media/hybl2.png)
 
 ### Task 1: Enable self-service password reset
 
