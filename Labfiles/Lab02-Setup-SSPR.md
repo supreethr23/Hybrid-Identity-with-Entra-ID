@@ -6,7 +6,7 @@ This lab focuses on enabling self-service password reset with authentication met
 
 ## Lab Scenario
 
-In this lab scenario, you are tasked with setting up self-service password reset in Azure AD, employees can securely reset their passwords without IT intervention, improving productivity and enhancing security and user experience.
+In this lab scenario, you are tasked with setting up self-service password reset in Entra ID, employees can securely reset their passwords without IT intervention, improving productivity and enhancing security and user experience.
 
 ## Lab objectives
 
