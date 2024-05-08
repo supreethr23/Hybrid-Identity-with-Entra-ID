@@ -49,11 +49,7 @@ In this lab, you will perform the following:
 
 12. Select **Registration** Select **No** for **Require users to register when signing in**, and the select **Save**.
 
-13. In the navigation pane, select **On-premises integration**.
-
-14. Verify that your on-premises writeback client is running and Select the checkbox for **Write back passwords with Microsoft Entra Connect cloud sync** and then click **Save**.
-
-15. Close Microsoft Edge.
+13. Close Microsoft Edge.
 
 ### Task 2: Validate self-service password reset
 
