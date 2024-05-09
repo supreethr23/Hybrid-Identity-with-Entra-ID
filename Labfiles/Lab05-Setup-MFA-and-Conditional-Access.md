@@ -46,6 +46,8 @@ In this lab, you will perform the following:
 
 6. At the top-right corner, select the **Account manager** and then select **Sign out**.
 
+   ![](../media/5-3.png)
+
 7. Close Microsoft Edge.
 
 ### Task 2: Enable MFA for a user
@@ -81,6 +83,8 @@ In this lab, you will perform the following:
 13. In the user list, select the check box next to **<inject key="AzureAdUserEmail"></inject>**.
 
 14. In the right navigation pane, on the **quick steps** pane, select **Enable**.
+
+    ![](../media/5-2.png)
 
 15. On the **About enabling multi-factor auth** message, select **enable multi-factor auth**.
 
@@ -139,6 +143,8 @@ In this lab, you will perform the following:
 5. In the user list, select the check box next to **<inject key="AzureAdUserEmail"></inject>**.
 
 6. On the **quick steps** in the right pane, select **Disable**.
+
+    ![](../media/5-1.png)
 
 7. On the **Disable multi-factor authentication?** message, select **yes**.
 
@@ -216,7 +222,7 @@ In this lab, you will perform the following:
 
 2. In the address bar, enter **https://outlook.office.com** and press Enter.
 
-3. On the **Pick an account** page, select**<inject key="AzureAdUserEmail"></inject>**.
+3. On the **Pick an account** page, select **<inject key="AzureAdUserEmail"></inject>**.
 
 5. If prompted,enter the password in the  **Enter password** page, enter the tenant password **<inject key="AzureAdUserPassword"></inject>** and select **Sign in**. 
 
