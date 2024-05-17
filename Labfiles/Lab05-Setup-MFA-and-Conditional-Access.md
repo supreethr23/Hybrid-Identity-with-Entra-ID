@@ -215,6 +215,10 @@ In this lab, you will perform the following:
 
 17. Close Microsoft Edge.
 
+>**Note:** If you received any massage as Your organization is not protected by security defaults then click on **Manage security default (1)** link and select **disable (2)** from the drop-down and then **save (3)** the changes.
+
+   ![](../media/2-3.png)
+
 ### Task 3: Validate conditional access MFA
 
 1. On the taskbar, select **Microsoft Edge** and open an **InPrivate window**
