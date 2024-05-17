@@ -44,6 +44,8 @@ In this lab, you will perform the following:
 
    > Outlook on the Web opens. Take note that only the password was required to sign in to Outlook on the Web.
 
+   >**Note:** If there is a blocker while signing in to Outlook, please wait for sometime and try signing in again.
+
 6. At the top-right corner, select the **Account manager** and then select **Sign out**.
 
    ![](../media/5-3.png)
@@ -215,9 +217,9 @@ In this lab, you will perform the following:
 
 17. Close Microsoft Edge.
 
->**Note:** If you received any massage as Your organization is not protected by security defaults then click on **Manage security default (1)** link and select **disable (2)** from the drop-down and then **save (3)** the changes.
+>**Note:** If you received any error message stating that **Security defaults must be disabled to enable conditional access policy** then click on **disable security defaults(1)** link and select **Disabled(2)** from the drop-down and select **My Organisation planning to use Conditional access(3)** then **save(4)** the changes and reperform the task again to create a policy
 
-   ![](../media/2-3.png)
+   ![](../media/sdf.png)
 
 ### Task 3: Validate conditional access MFA
 
