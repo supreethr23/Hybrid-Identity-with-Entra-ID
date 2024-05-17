@@ -182,9 +182,8 @@ In this lab, you will perform the following:
 
 3. In the navigation pane, expand **Protection**, and then select **Conditional Access**.
 
-4. On the **Conditional Access** page, select **Policies**, and then select **Create New policy**.
+4. On the **Conditional Access** page, select **Policies**, and then select **New policy**.
 
-    ![](../media/hybrid06.png)
 
 5. On the **New Conditional access policy** page, in the **Name** box, enter **Contoso MFA Policy**.
 
