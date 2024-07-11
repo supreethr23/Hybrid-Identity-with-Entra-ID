@@ -59,7 +59,7 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
 
 1. If a **Welcome to Microsoft Azure** popup window appears, click **Maybe Later** to skip the tour.
 
-    ![](../media/g4.jpg)
+    ![](../media/getting-started-latest.png)
 
 Now you're all set to explore the powerful world of technology. Feel free to reach out if you have any questions along the way. Enjoy your workshop!
 
