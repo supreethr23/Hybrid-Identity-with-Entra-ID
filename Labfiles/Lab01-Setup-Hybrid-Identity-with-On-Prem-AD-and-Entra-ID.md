@@ -200,7 +200,7 @@ In this task, you will verify the synchronization of identities in Azure Active 
 
 1. Now enter the number shown on your screen in the authenticator app and select **Next.**
 
-   Note:- It you are asked to enter your **Mobile Number**, close the browser and try to login in **InPrivate Window**.
+   Note:- It you are asked to enter your **Mobile Number**, close the browser and login in **InPrivate Window**.
 
 1. At the Save password prompt, select **Save**.
 

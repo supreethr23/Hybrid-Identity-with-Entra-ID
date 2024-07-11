@@ -235,6 +235,8 @@ In this lab, you will perform the following:
 
 7. At the **Enter code** page, enter the code sent to your mobile phone, and then select **Verify**.
 
+   Note:- It you are asked to enter your **Mobile Number**, close the browser and login in **InPrivate Window**.
+
 8. At the **Protect your account** page, select **skip for now**.
 
 9. At the Stay signed message, select **No**. Outlook on the Web opens to the ODL user's inbox.
