@@ -47,9 +47,9 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
      >**Note**: Refer to the **Environment Details** tab for any other lab credentials/details.
 
   
-1. If you see the pop-up like below, click **Skip for now(14 days until this is required)**.
+1. If **Action required** pop-up window appears, click on **Ask later**.
 
-    ![](../media/g6.png)
+    ![](../media/ask-later-01.png)
 
 1. If you see the pop-up **Stay Signed in?** click **Yes**.
 
