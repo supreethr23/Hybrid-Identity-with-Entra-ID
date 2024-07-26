@@ -1,18 +1,18 @@
 # Lab 1: Setup Hybrid Identity with On-Prem AD and Entra ID
 
 ## Lab Overview 
-This lab focuses on setting up a hybrid identity solution using on-premises Active Directory (AD) and Microsoft Entra ID. It guides users through the process of configuring Active Directory on a Windows Server, adding users/groups to the domain controller, and configuring directory synchronization with Azure AD Connect to sync identities between on-premises AD and Azure AD.
+This lab focuses on setting up a hybrid identity solution using on-premises Active Directory (AD) and Microsoft Entra ID. It guides users through the process of configuring Active Directory on a Windows Server, adding users/groups to the domain controller, and configuring directory synchronization with Microsoft Entra Connect to sync identities between on-premises AD and Entra ID.
 
 ## Lab Scenario
-In this lab scenario, you are tasked with setting up a hybrid identity solution to seamlessly manage user identities across on-premises and cloud environments. By configuring Active Directory on a Windows Server, adding users/groups, and setting up directory synchronization with Azure AD Connect, organizations can achieve centralized identity management and enable single sign-on capabilities for their users.
+In this lab scenario, you are tasked with setting up a hybrid identity solution to seamlessly manage user identities across on-premises and cloud environments. By configuring Active Directory on a Windows Server, adding users/groups, and setting up directory synchronization with Microsoft Entra Connect, organizations can achieve centralized identity management and enable single sign-on capabilities for their users.
 
 ## Lab objectives
 In this lab, you will perform the following:
 
 - Task 1: Active Directory Setup
 - Task 2: Adding users or groups in your Domain Controller
-- Task 3: Configure directory synchronization with Azure AD Connect
-- Task 4: Verify synchronization in Azure AD
+- Task 3: Configure directory synchronization with Entra ID Connect
+- Task 4: Verify synchronization in Entra ID
 
 ## Estimated timing: 90 minutes
 
@@ -133,14 +133,14 @@ In this task, you will add user accounts to the domain controller in Active Dire
   
     ![](../media/lab1-23.png)
 
-## Task 3: Configure directory synchronization with Azure AD Connect
-In this task, you will configure directory synchronization between your on-premises Active Directory and Azure Active Directory using Azure AD Connect. This involves downloading and installing Azure AD Connect, providing necessary credentials for synchronization, and configuring synchronization options. By completing this task, you will enable the seamless synchronization of user identities between on-premises AD and Azure AD.
+## Task 3: Configure directory synchronization with Microsoft Entra Connect
+In this task, you will configure directory synchronization between your on-premises Active Directory and Microsoft Entra ID using Entra Connect. This involves downloading and installing Azure AD Connect, providing necessary credentials for synchronization, and configuring synchronization options. By completing this task, you will enable the seamless synchronization of user identities between on-premises AD and Entra ID.
 
 1. On the taskbar, select **Microsoft Edge**.
 
 1. In the address bar, enter `https://www.microsoft.com/en-us/download/details.aspx?id=47594`.
 
-1. On the Azure AD Connect V2 section, select **Download**. 
+1. On the Microsoft Entra connect, select **Download**. 
 
    ![](../media/lab1-24.png)
 
@@ -177,8 +177,8 @@ In this task, you will configure directory synchronization between your on-premi
 
 1. Close all open windows.
 
-## Task 4: Verify synchronization in Azure AD
-In this task, you will verify the synchronization of identities in Azure Active Directory. You will access the Microsoft 365 admin center, navigate to the Identity section, and verify that user accounts synchronized from on-premises AD are visible in Azure AD. By confirming successful synchronization, you will ensure that users can access cloud-based resources using their on-premises credentials.
+## Task 4: Verify synchronization in Entra ID
+In this task, you will verify the synchronization of identities in Azure Active Directory. You will access the Microsoft 365 admin center, navigate to the Identity section, and verify that user accounts synchronized from on-premises AD are visible in Entra ID. By confirming successful synchronization, you will ensure that users can access cloud-based resources using their on-premises credentials.
 
 1. On the taskbar, select **Microsoft Edge**.
 
@@ -214,7 +214,7 @@ In this task, you will verify the synchronization of identities in Azure Active 
 
    ![](../media/lab1-32.png)
 
-14. Close Microsoft Edge.
+1. Close Microsoft Edge.
 
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
