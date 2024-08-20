@@ -182,9 +182,9 @@ In this task, you will verify the synchronization of identities in Azure Active 
 
 1. On the taskbar, select **Microsoft Edge**.
 
-1. In the address bar, enter **https://admin.microsoft.com**.
+1. In the address bar, enter **https://entra.microsoft.com**.
 
-1. At the Sign-in prompt, enter **<inject key="AzureAdUserEmail"></inject>** and then select **Next**.
+1. If the user is not logged in already, at the Sign-in prompt, enter **<inject key="AzureAdUserEmail"></inject>** and then select **Next**.
 
 1. At the Enter password page, enter the password for the Admin account as **<inject key="AzureAdUserPassword"></inject>** and then select **Sign in**. 
 
