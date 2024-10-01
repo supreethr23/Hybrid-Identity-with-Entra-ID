@@ -38,7 +38,11 @@ In this lab, you will perform the following:
 
    > Outlook on the Web opens. Take note that only the password was required to sign in to Outlook on the Web.
 
+   >**Note:** If there is a blocker while signing in to Outlook, please wait for sometime and try signing in again.
+
 6. At the top-right corner, select the **Account manager** and then select **Sign out**.
+
+   ![](../media/5-3.png)
 
 7. Close Microsoft Edge.
 
