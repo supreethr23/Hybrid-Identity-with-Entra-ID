@@ -48,7 +48,7 @@ In this lab, you will perform the following:
 
 ### Task 2: Enable MFA for a user
 
-1. On the taskbar select **Microsoft Edge**, in the address bar type **https://entra.microsoft.com**, and then press **Enter**.
+1. In **Microsoft Edge**, in the address bar type **https://entra.microsoft.com**, and then press **Enter**.
 
 2. Sign in as user **<inject key="AzureAdUserEmail"></inject>** and use the tenant Admin password  **<inject key="AzureAdUserPassword"></inject>**. If the **Stay signed in?** prompt appears, select **No**. 
 
