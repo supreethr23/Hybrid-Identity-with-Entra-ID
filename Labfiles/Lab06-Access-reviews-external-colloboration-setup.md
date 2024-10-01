@@ -224,7 +224,7 @@ Screen image displaying guest user access restriction options
 
 1. When finished, **save** your changes.
 
-<validation step="28f27ec1-57c0-4088-8af9-c11d32477235" />
+<validation step="fa844ca4-5958-40e0-a9f4-e3bd09e13380" />
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 - If you receive a success message, you can proceed to the next task.
