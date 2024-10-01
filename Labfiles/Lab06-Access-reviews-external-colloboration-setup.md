@@ -48,7 +48,7 @@ In this task, you will configure an access review in Microsoft Entra ID to revie
 
 1. On the **Azure portal**, search and select **Microsoft Entra ID** then select **Identity governance** under **Manage** section .
 
-1. Select **Access reviews** from the left pane.
+1. From the left navigation pane expand and select **Access reviews**.
 
 1. Select **+ New access review**.
 
