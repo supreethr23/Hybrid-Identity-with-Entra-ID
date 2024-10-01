@@ -52,7 +52,7 @@ In this task, you will configure an access review in Microsoft Entra ID to revie
 
 1. Select **+ New access review**.
 
-1. On **New access review** page, provide the below settings
+1. On **New access review** page, provide the below settings and Select **Next:Reviews**.
 
    | Setting | Value |
    |--------|------|
@@ -61,9 +61,9 @@ In this task, you will configure an access review in Microsoft Entra ID to revie
    | Groups | select **+ Select group(s)** link and search and select **All users** from the list (3)|
    | Scope | All users (4)|
 
-   ![](../media/lab6-3.png)
+   ![](../media/new1-5-2.png)
 
-1. Select **Next:Reviews**
+1. On **Specify reviewers** enter the following and click on select **Next:Settings**
 
    | Setting | Value |
    |--------|------|
@@ -71,9 +71,9 @@ In this task, you will configure an access review in Microsoft Entra ID to revie
    | Users or groups | click **+ Select Reviewers** and select **ODL_USER XXXX** from the list |
    | Review Recurrence | Monthly |
 
-   ![](../media/lab6-4.png)
+   ![](../media/new1-5-3.png)
 
-1. Select **Next:Settings**
+1. On the **Settings** tab enter the following and select **Next:Review + Create**
 
    | Setting | Value |
    |--------|------|
@@ -81,13 +81,11 @@ In this task, you will configure an access review in Microsoft Entra ID to revie
    | if reviewers dont respond | Take recommendation |
    | At end of review, send notification to | click **+ Select User(s) or group(s)** and select **ODL_USER XXXX** from the list  |
 
-   ![](../media/lab6-5.png)
+   ![](../media/new1-5-4.png)
 
-1. Select **Next:Review + Create** and enter **AccessreviewforAllusers** to the **Review name**
+1.  On the **Review + Create** tab enter **AccessreviewforAllusers** to the **Review name** and click **Create**.
 
-   ![](../media/lab6-6.png)
-
-1. Verify the settings once again and select **Create** to create the access review.
+   ![](../media/new1-5-5.png)
 
 ### Task 3: Review access to groups and applications in access reviews
 
@@ -97,7 +95,7 @@ In this task, you will configure an access review in Microsoft Entra ID to revie
 
 1. Select **Access reviews** from the left menu to see a list of pending access reviews assigned to you.
 
-   ![](../media/hybrid12.png)
+   ![](../media/new1-5-6.png)
 
 1. After you open My Access under Groups and Apps, you can see:
 
@@ -169,11 +167,11 @@ In this task, you will configure an access review in Microsoft Entra ID to revie
 
 ### Task 2 - Configure external collaboration settings
 
-1. From the left navigation pane, under **Identity** select **External Identities**, and then select All identity providers.
+1. From the left navigation pane, under **Identity** select **External Identities**, and then select **All identity providers**.
 
-1. Select the **Email one-time passcode** notification link you see near the top of the screen.
+1. Select the **Email one-time passcode** configured link.
 
-   ![](../media/hybrid15.png)
+   ![](../media/new1-5-8.png)
 
    >**Note:** A one-time passcode is a very secure way to invite a user to join your organization.
 
@@ -191,6 +189,8 @@ In this task, you will configure an access review in Microsoft Entra ID to revie
       - Guest user access is restricted to properties and memberships of their own directory objects (most restrictive): With this setting, guests can access only their own profiles. Guests are not allowed to see other users’ profiles, groups, or group memberships.
 Screen image displaying guest user access restriction options
 
+        ![](../media/new1-5-9.png)
+
 1. Under **Guest invite settings**, select **Member users and users assigned to specific admin roles can invite guest users including guests with member permissions!**
 
    >**NOTE:**
@@ -201,6 +201,8 @@ Screen image displaying guest user access restriction options
       - No one in the organization can invite guest users including admins (most restrictive): To deny everyone in the organization from inviting guests, select this radio button.
       - If Members can invite is set to No and Admins and users in the guest inviter role can invite is set to Yes, users in the Guest Inviter role will still be able to invite guests.
 
+        ![](../media/new1-5-10.png)
+        
 1. Under **Collaboration restrictions**, review the available options and accept the default settings.
 
     >**IMPORTANT**
@@ -210,5 +212,7 @@ Screen image displaying guest user access restriction options
       - The number of domains you can add to an allow list or deny list is limited only by the size of the policy. The maximum size of the entire policy is 25 KB (25,000 characters), which includes the allow list or deny list and any other parameters configured for other features.
       - This list works independently from OneDrive for Business and SharePoint Online allow/block lists. If you want to restrict individual file sharing in SharePoint Online, you need to set up an allow or deny list for OneDrive for Business and SharePoint Online.
       - The list does not apply to external users who have already redeemed the invitation. The list will be enforced after the list is set up. If a user invitation is in a pending state, and you set a policy that blocks their domain, the user’s attempt to redeem the invitation will fail.
+
+        ![](../media/new1-5-11.png)
 
 1. When finished, **save** your changes.
