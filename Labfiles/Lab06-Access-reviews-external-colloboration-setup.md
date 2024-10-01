@@ -61,9 +61,9 @@ In this task, you will configure an access review in Microsoft Entra ID to revie
    | Groups | select **+ Select group(s)** link and search and select **All users** from the list (3)|
    | Scope | All users (4)|
 
-   ![](../media/new1-5-2.png)
+   ![](../media/new-5-3.png)
 
-1. On **Specify reviewers** enter the following and click on select **Next:Settings**
+1. On **Specify reviewers** enter the following and click on select **Next: Settings**
 
    | Setting | Value |
    |--------|------|
@@ -73,7 +73,7 @@ In this task, you will configure an access review in Microsoft Entra ID to revie
 
    ![](../media/new1-5-3.png)
 
-1. On the **Settings** tab enter the following and select **Next:Review + Create**
+1. On the **Settings** tab enter the following and select **Next: Review + Create**
 
    | Setting | Value |
    |--------|------|
@@ -85,7 +85,7 @@ In this task, you will configure an access review in Microsoft Entra ID to revie
 
 1.  On the **Review + Create** tab enter **AccessreviewforAllusers** to the **Review name** and click **Create**.
 
-   ![](../media/new1-5-5.png)
+     ![](../media/new1-5-5.png)
 
 ### Task 3: Review access to groups and applications in access reviews
 
