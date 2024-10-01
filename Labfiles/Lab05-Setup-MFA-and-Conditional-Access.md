@@ -62,29 +62,43 @@ In this lab, you will perform the following:
 
    ![](../media/hybrid01.png)
 
+5. On the **Per-user multifactor authentication** page click on **here** link. 
+
+     ![](../media/new1-5-15.png)
+
 6. In the **multi-factor authentication** page, select **service settings**. Select **Allow users to remember multi-factor authentication on devices they trust**.
 
 7. Next to **Number of days users can trust devices for**, enter **30** and then select **save**. 
 
-   ![](../media/hybrid02.png)
+    ![](../media/new1-5-14.png)
 
 8. Close the **multi-factor authentication** page.
 
 9. Navigate back to the **Microsoft Entra admin center** Edge tab and in the navigation pane, select **Users** > **All users**.
 
-10. In the users list, at the top of the user list, select Per-user MFA. The Per-user MFA page opens.
+10. In the users list, at the top of the user list, select **Per-user MFA**. The Per-user MFA page opens.
 
     ![](../media/hybrid03.png)
+
+11. To open **Per-user multifactor authentication** page click on **here** link.
+
+      ![](../media/new1-5-15.png)
 
 13. In the user list, select the check box next to **<inject key="AzureAdUserEmail"></inject>**.
 
 14. In the right navigation pane, on the **quick steps** pane, select **Enable**.
 
-15. On the **About enabling multi-factor auth** message, select **enable multi-factor auth**.
+    ![](../media/new1-5-16.png)
 
-16. On the **Updates successful** message, select **close**. Take note that the **Multi-Factor Auth Status** for **<inject key="AzureAdUserEmail"></inject>** is now **Enabled**.
+16. On the **About enabling multi-factor auth** message, select **enable multi-factor auth**.
 
-17. Close Microsoft Edge.
+      ![](../media/new1-5-17.png)
+    
+18. On the **Updates successful** message, select **close**. Take note that the **Multi-Factor Auth Status** for **<inject key="AzureAdUserEmail"></inject>** is now **Enabled**.
+
+    ![](../media/new1-5-18.png)
+
+20. Close Microsoft Edge.
 
 ### Task 3: Register and Validate MFA 
 
