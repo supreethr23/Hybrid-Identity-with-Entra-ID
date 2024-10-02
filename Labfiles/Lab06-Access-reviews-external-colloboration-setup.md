@@ -20,14 +20,11 @@ In this lab, you will perform the following:
 ## Exercise 1: Configure Access reviews
 
 ### Task 1: Create a group
+In this task, you will create a Microsoft 365 group named "All Users" in the Azure portal, assign ODL_User as the owner, and add specified members to the group.
 
-1. On the taskbar select **Microsoft Edge**, in the address bar type **https://portal.azure.com**, and then press **Enter**.
+1. Navigate back to **Azure** portal and search and select **Groups**
 
-1. On the **Pick an account** page, select **<inject key="AzureAdUserEmail"></inject>**.
-
-1. Search and select **Groups**
-
-1. click on **+New group**
+1. click on **+ New group**
 
    ![](../media/lab6-1.png)
 
@@ -39,8 +36,8 @@ In this lab, you will perform the following:
    | Group name | All Users |
    | Group description | Similar access group |
    | Microsoft Entra roles can be assigned to the group | yes |
-   | Owners | Click on **no owners selected** and select **ODL_User** from the list |
-   | Members | Click on **no members selected** and select **Allan**, **Jonis**, **Mirinda**, **Edmund** and also include **ODL_User** from the list |
+   | Owners | Click on **no owners selected** and select **ODL_User <inject key="DeploymentID" enableCopy="false"/>** from the list |
+   | Members | Click on **no members selected** and select **Allan**, **Jonis**, **Mirinda**, **Edmund** and also include **ODL_User <inject key="DeploymentID" enableCopy="false"/>** from the list |
 
    ![](../media/lab6-2.png)
 
@@ -50,54 +47,50 @@ In this lab, you will perform the following:
 
 In this task, you will configure an access review in Microsoft Entra ID to review access permissions for Teams and Groups. The access review will include all users and will recur monthly. Reviewers will be selected from a specific user group, and notifications will be sent to all users at the end of the review. The review will auto-apply results to resources and take recommendations if reviewers don't respond. Ensure the settings are accurate before creating the access review.
 
-1. On the taskbar select **Microsoft Edge**, in the address bar type **https://portal.azure.com**, and then press **Enter**.
+1. On the **Azure portal**, search and select **Microsoft Entra ID** then select **Identity governance** under **Manage** section .
 
-1. On the **Pick an account** page, select **<inject key="AzureAdUserEmail"></inject>**.
-
-1. In the  **Microsoft Entra ID** page , select **Identity governance** under Manage.
-
-1. Select **Access reviews** from the left pane.
+1. From the left navigation pane expand and select **Access reviews**.
 
 1. Select **+ New access review**.
 
-1. On **New access review** page, provide the below settings
+1. On **New access review** page, provide the below settings and Select **Next:Reviews**.
 
    | Setting | Value |
    |--------|------|
    | Select what to review | Teams + Groups (1)|
    | Review scope | select Teams + groups (2)|
-   | Groups | search and select **All users** from the list (3)|
+   | Groups | select **+ Select group(s)** link and search and select **All users** from the list (3)|
    | Scope | All users (4)|
 
-   ![](../media/lab6-3.png)
+   ![](../media/new-5-3.png)
 
-1. Select **Next:Reviews**
+1. On **Specify reviewers** enter the following and click on select **Next: Settings**
 
    | Setting | Value |
    |--------|------|
    | Select reviewers | Selected user(s) or group(s) |
-   | Users or groups | click **+ Select Reviewers** and select **ODL_USER XXXX** from the list |
+   | Users or groups | click **+ Select Reviewers** and select **ODL_USER <inject key="DeploymentID" enableCopy="false"/>** from the list |
    | Review Recurrence | Monthly |
 
-   ![](../media/lab6-4.png)
+   ![](../media/new1-5-3.png)
 
-1. Select **Next:Settings**
+1. On the **Settings** tab enter the following and select **Next: Review + Create**
 
    | Setting | Value |
    |--------|------|
    | Auto apply results to resource | Selected the checkbox |
    | if reviewers dont respond | Take recommendation |
-   | At end of review, send notification to | click **+ Select User(s) or group(s)** and select **ODL_USER XXXX** from the list  |
+   | At end of review, send notification to | click **+ Select User(s) or group(s)** and select **ODL_USER <inject key="DeploymentID" enableCopy="false"/>** from the list  |
 
-   ![](../media/lab6-5.png)
+   ![](../media/new1-5-4.png)
 
-1. Select **Next:Review + Create** and enter **AccessreviewforAllusers** to the **Review name**
+1.  On the **Review + Create** tab enter **AccessreviewforAllusers** to the **Review name** and click **Create**.
 
-   ![](../media/lab6-6.png)
-
-1. Verify the settings once again and select **Create** to create the access review.
+     ![](../media/new1-5-5.png)
 
 ### Task 3: Review access to groups and applications in access reviews
+
+In this task, you will review and manage user access to groups and applications through access reviews in the My Access portal. You will either manually assess and decide on user access or accept system-generated recommendations for managing permissions efficiently.
 
 1. Sign in to My Access at https://myaccess.microsoft.com/
    
@@ -105,7 +98,7 @@ In this task, you will configure an access review in Microsoft Entra ID to revie
 
 1. Select **Access reviews** from the left menu to see a list of pending access reviews assigned to you.
 
-   ![](../media/hybrid12.png)
+   ![](../media/new1-5-6.png)
 
 1. After you open My Access under Groups and Apps, you can see:
 
@@ -161,6 +154,8 @@ In this task, you will configure an access review in Microsoft Entra ID to revie
 
 ### Task 1 - Enable Guest Users to perform self service sign-up
 
+In this task, you'll configure settings to allow guest users to sign up for access on their own in Microsoft Entra by enabling the self-service sign-up feature.
+
 1. Sign in to the https://entra.microsoft.com
 
 1. On the **Pick an account** page, select **<inject key="AzureAdUserEmail"></inject>**.
@@ -177,11 +172,13 @@ In this task, you will configure an access review in Microsoft Entra ID to revie
 
 ### Task 2 - Configure external collaboration settings
 
-1. From the left navigation pane, under **Identity** select **External Identities**, and then select All identity providers.
+In this task, you'll configure external collaboration settings by enabling email one-time passcode notifications, setting guest user access levels, specifying who can invite guest users, and configuring collaboration restrictions.
 
-1. Select the **Email one-time passcode** notification link you see near the top of the screen.
+1. From the left navigation pane, under **Identity** select **External Identities**, and then select **All identity providers**.
 
-   ![](../media/hybrid15.png)
+1. Select the **Email one-time passcode** configured link.
+
+   ![](../media/new1-5-8.png)
 
    >**Note:** A one-time passcode is a very secure way to invite a user to join your organization.
 
@@ -199,6 +196,8 @@ In this task, you will configure an access review in Microsoft Entra ID to revie
       - Guest user access is restricted to properties and memberships of their own directory objects (most restrictive): With this setting, guests can access only their own profiles. Guests are not allowed to see other users’ profiles, groups, or group memberships.
 Screen image displaying guest user access restriction options
 
+        ![](../media/new1-5-9.png)
+
 1. Under **Guest invite settings**, select **Member users and users assigned to specific admin roles can invite guest users including guests with member permissions!**
 
    >**NOTE:**
@@ -209,6 +208,8 @@ Screen image displaying guest user access restriction options
       - No one in the organization can invite guest users including admins (most restrictive): To deny everyone in the organization from inviting guests, select this radio button.
       - If Members can invite is set to No and Admins and users in the guest inviter role can invite is set to Yes, users in the Guest Inviter role will still be able to invite guests.
 
+        ![](../media/new1-5-10.png)
+        
 1. Under **Collaboration restrictions**, review the available options and accept the default settings.
 
     >**IMPORTANT**
@@ -219,4 +220,30 @@ Screen image displaying guest user access restriction options
       - This list works independently from OneDrive for Business and SharePoint Online allow/block lists. If you want to restrict individual file sharing in SharePoint Online, you need to set up an allow or deny list for OneDrive for Business and SharePoint Online.
       - The list does not apply to external users who have already redeemed the invitation. The list will be enforced after the list is set up. If a user invitation is in a pending state, and you set a policy that blocks their domain, the user’s attempt to redeem the invitation will fail.
 
+        ![](../media/new1-5-11.png)
+
 1. When finished, **save** your changes.
+
+<validation step="fa844ca4-5958-40e0-a9f4-e3bd09e13380" />
+
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+- If you receive a success message, you can proceed to the next task.
+- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+- If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
+
+
+## Summary 
+In this lab you learnt to set up access reviews to manage user permissions and enabled guest self-service sign-up. You also configured external collaboration settings to control guest invitations and access, improving security and compliance in Microsoft Entra ID.
+
+## Review
+In this lab, you have completed:
+
+- Configure Access reviews
+- Create a group
+- Configure access review
+- Review access to groups and applications in access reviews
+- Configure external collaboration settings
+- Enable Guest Users to perform self service sign-up
+- Configure external collaboration settings
+
+## You have successfully completed the lab. Click on Next >> to procced with next exercise.

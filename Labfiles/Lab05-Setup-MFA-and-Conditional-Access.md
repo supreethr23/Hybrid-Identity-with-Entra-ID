@@ -26,6 +26,8 @@ In this lab, you will perform the following:
 
 ### Task 1: Validate sign-in before enabling MFA
 
+In this task, you are validating the current sign-in process to Outlook on the Web before enabling multi-factor authentication (MFA). You will sign in with just a password, check that MFA is not yet required, and then sign out. This ensures you understand the baseline sign-in experience before introducing MFA.
+
 1. On the taskbar, select **Microsoft Edge**.
 
 2. In the address bar, enter **outlook.office.com** and press Enter.
@@ -38,13 +40,19 @@ In this lab, you will perform the following:
 
    > Outlook on the Web opens. Take note that only the password was required to sign in to Outlook on the Web.
 
+   >**Note:** If there is a blocker while signing in to Outlook, please wait for sometime and try signing in again.
+
 6. At the top-right corner, select the **Account manager** and then select **Sign out**.
+
+   ![](../media/5-3.png)
 
 7. Close Microsoft Edge.
 
 ### Task 2: Enable MFA for a user
 
-1. On the taskbar select **Microsoft Edge**, in the address bar type **https://entra.microsoft.com**, and then press **Enter**.
+In this task, you will enable multi-factor authentication (MFA) for a specific user in Microsoft Entra. You’ll first access the Microsoft Entra admin center, configure MFA settings to allow users to remember trusted devices for 30 days, and then enable MFA for the selected user. After applying these changes, the user will be required to use MFA during sign-in.
+
+1. In **Microsoft Edge**, in the address bar type **https://entra.microsoft.com**, and then press **Enter**.
 
 2. Sign in as user **<inject key="AzureAdUserEmail"></inject>** and use the tenant Admin password  **<inject key="AzureAdUserPassword"></inject>**. If the **Stay signed in?** prompt appears, select **No**. 
 
@@ -58,31 +66,47 @@ In this lab, you will perform the following:
 
    ![](../media/hybrid01.png)
 
+5. On the **Per-user multifactor authentication** page click on **here** link. 
+
+     ![](../media/new1-5-15.png)
+
 6. In the **multi-factor authentication** page, select **service settings**. Select **Allow users to remember multi-factor authentication on devices they trust**.
 
 7. Next to **Number of days users can trust devices for**, enter **30** and then select **save**. 
 
-   ![](../media/hybrid02.png)
+    ![](../media/new1-5-14.png)
 
 8. Close the **multi-factor authentication** page.
 
 9. Navigate back to the **Microsoft Entra admin center** Edge tab and in the navigation pane, select **Users** > **All users**.
 
-10. In the users list, at the top of the user list, select Per-user MFA. The Per-user MFA page opens.
+10. In the users list, at the top of the user list, select **Per-user MFA**. The Per-user MFA page opens.
 
     ![](../media/hybrid03.png)
+
+11. To open **Per-user multifactor authentication** page click on **here** link.
+
+      ![](../media/new1-5-15.png)
 
 13. In the user list, select the check box next to **<inject key="AzureAdUserEmail"></inject>**.
 
 14. In the right navigation pane, on the **quick steps** pane, select **Enable**.
 
-15. On the **About enabling multi-factor auth** message, select **enable multi-factor auth**.
+    ![](../media/new1-5-16.png)
 
-16. On the **Updates successful** message, select **close**. Take note that the **Multi-Factor Auth Status** for **<inject key="AzureAdUserEmail"></inject>** is now **Enabled**.
+16. On the **About enabling multi-factor auth** message, select **enable multi-factor auth**.
 
-17. Close Microsoft Edge.
+      ![](../media/new1-5-17.png)
+    
+18. On the **Updates successful** message, select **close**. Take note that the **Multi-Factor Auth Status** for **<inject key="AzureAdUserEmail"></inject>** is now **Enabled**.
+
+    ![](../media/new1-5-18.png)
+
+20. Close Microsoft Edge.
 
 ### Task 3: Register and Validate MFA 
+
+In this task, you will configure and verify multi-factor authentication (MFA) for a user. This involves setting up MFA through text messages, registering your mobile phone, and completing the verification process. You will then sign in again to ensure that MFA is functioning correctly and confirm that the setup is complete.
 
 1. On the taskbar, select **Microsoft Edge**.
 
@@ -122,23 +146,29 @@ In this lab, you will perform the following:
 
 ### Task 4: Remove per-user MFA
 
+In this task, you will remove multi-factor authentication (MFA) for a user. This involves accessing the Microsoft Entra admin center, navigating to the Per-user MFA settings, and disabling MFA for the specified user. 
+
 1. On the taskbar select **Microsoft Edge**, in the address bar type **https://entra.microsoft.com**, and then press **Enter**.
 
 2. Sign in as **<inject key="AzureAdUserEmail"></inject>**, and use the tenant Admin password **<inject key="AzureAdUserPassword"></inject>**, If the **Stay signed in?** prompt appears, select **No**. The Microsoft Entra admin center opens.
 
 3. In the Microsoft Entra admin center, in the left navigation pane, select **Users**.
 
-4. Select **All users** and then at the top of the results pane select **Per-user MFA**. If prompted to pick an account, choose **<inject key="AzureAdUserEmail"></inject>**. The Per-user MFA page opens.
+4. Select **All users** and then at the top of the results pane select **Per-user MFA**. To open **Per-user multifactor authentication** page click on **here** link.
 
-5. In the user list, select the check box next to **<inject key="AzureAdUserEmail"></inject>**.
+      ![](../media/new1-5-15.png)
 
-6. On the **quick steps** in the right pane, select **Disable**.
+5. If prompted to pick an account, choose **<inject key="AzureAdUserEmail"></inject>**. The Per-user MFA page opens.
 
-7. On the **Disable multi-factor authentication?** message, select **yes**.
+6. In the user list, select the check box next to **<inject key="AzureAdUserEmail"></inject>**.
 
-8. On the **Updates successful** message, select **close**. Take note that the **Multi-Factor Auth Status** for the ODL user  is now **Disabled**.
+7. On the **quick steps** in the right pane, select **Disable**.
 
-9. Close Microsoft Edge.
+8. On the **Disable multi-factor authentication?** message, select **yes**.
+
+9. On the **Updates successful** message, select **close**. Take note that the **Multi-Factor Auth Status** for the ODL user  is now **Disabled**.
+
+10. Close Microsoft Edge.
 
 **Results**: After completing this exercise, you will have successfully configured per-user multi-factor authentication.
 
@@ -146,23 +176,25 @@ In this lab, you will perform the following:
 
 ### Task 1: Validate sign-in before enabling conditional access with MFA
 
-1. On the taskbar, select **Microsoft Edge**.
+In this task, you validate the current sign-in process for a user before setting up conditional access with MFA. This involves signing into Outlook on the Web using only the password, confirming that MFA is not currently required, and then signing out.
 
-2. In the address bar, enter **outlook.office.com** and press Enter.
+1. On the **Microsoft Edge**. In the address bar, enter **outlook.office.com** and press Enter.
 
-4. On the **Pick an account** page, select **<inject key="AzureAdUserEmail"></inject>**
+2. On the **Pick an account** page, select **<inject key="AzureAdUserEmail"></inject>**
 
-5.  If prompted to enter the password, in the **Enter password** page, enter the tenant password **<inject key="AzureAdUserPassword"></inject>** and select **Sign in**.
+3.  If prompted to enter the password, in the **Enter password** page, enter the tenant password **<inject key="AzureAdUserPassword"></inject>** and select **Sign in**.
 
-6. On the **Stay signed in** page, select **No**. Outlook opens to the ODL user's inbox. Take note that only the password was required to sign in to Outlook on the Web as you removed the MFA in the previous Exercise.
+4. On the **Stay signed in** page, select **No**. Outlook opens to the ODL user's inbox. Take note that only the password was required to sign in to Outlook on the Web as you removed the MFA in the previous Exercise.
 
-7. At the top-right corner, select the **Account manager** and then select **Sign out**.
+5. At the top-right corner, select the **Account manager** and then select **Sign out**.
 
-8. Close Microsoft Edge.
+6. Close Microsoft Edge.
 
 ### Task 2: Configure conditional access with MFA
 
-1. On the taskbar select **Microsoft Edge**, in the address bar type **https://entra.microsoft.com**, and then press **Enter**.
+In this task, you configure a conditional access policy to require multi-factor authentication (MFA) for accessing Office 365 apps. You create a new policy in the Microsoft Entra admin center, specify the user or group it applies to, and enforce MFA as part of the access controls.
+
+1. On the **Microsoft Edge**, in the address bar type **https://entra.microsoft.com**, and then press **Enter**.
 
 2. Sign in as **<inject key="AzureAdUserEmail"></inject>**, and use the tenant Admin password **<inject key="AzureAdUserPassword"></inject>**. If the **Stay signed in?** prompt appears, select **No**. 
 
@@ -192,25 +224,27 @@ In this lab, you will perform the following:
 
     ![](../media/hybrid07.png)
 
-12. On the **Select** page, search for **Office 365** and select the check box next to it and then click **Select**.
+11. On the **Select** page, search for **Office 365** and select the check box next to it and then click **Select**.
 
-13. Under **Access controls**, in the **Grant** section, select **0 controls selected**.
+12. Under **Access controls**, in the **Grant** section, select **0 controls selected**.
 
-14. On the **Grant** page, select **Grant access**, select the check box next to **Require multifactor authentication**, and then click **Select**.
+13. On the **Grant** page, select **Grant access**, select the check box next to **Require multifactor authentication**, and then click **Select**.
 
-15. Under **Enable policy**, select **On**.
+14. Under **Enable policy**, select **On**.
 
-16. Select **Create** to create the Contoso MFA Policy. Notice that the policy is listed with a State of **On**.
+15. Select **Create** to create the Contoso MFA Policy. Notice that the policy is listed with a State of **On**.
 
-17. Close Microsoft Edge.
+16. Close Microsoft Edge.
 
 ### Task 3: Validate conditional access MFA
 
-1. On the taskbar, select **Microsoft Edge** and open an **InPrivate window**
+In this task, you test the newly configured conditional access policy by signing in to Outlook on the Web and completing the MFA process to ensure that the policy is enforcing multi-factor authentication correctly.
+
+1. On the **Microsoft Edge** and open an **InPrivate window**
 
 2. In the address bar, enter **https://outlook.office.com** and press Enter.
 
-3. On the **Pick an account** page, select**<inject key="AzureAdUserEmail"></inject>**.
+3. On the **Pick an account** page, select **<inject key="AzureAdUserEmail"></inject>**.
 
 5. If prompted,enter the password in the  **Enter password** page, enter the tenant password **<inject key="AzureAdUserPassword"></inject>** and select **Sign in**. 
 
@@ -228,7 +262,9 @@ In this lab, you will perform the following:
 
 ### Task 4: Remove conditional access MFA 
 
-1. On the taskbar select **Microsoft Edge**, in the address bar type **https://entra.microsoft.com**, and then press **Enter**.
+In this task, you remove the previously configured conditional access policy for multi-factor authentication by deleting the policy from the Microsoft Entra admin center.
+
+1. On the **Microsoft Edge**, in the address bar type **https://entra.microsoft.com**, and then press **Enter**.
 
 3. Sign in as user **<inject key="AzureAdUserEmail"></inject>**, and use the tenant Admin password **<inject key="AzureAdUserPassword"></inject>**. If the **Stay signed in?** prompt appears, select **No**. The Microsoft Entra admin center opens.
 
@@ -245,3 +281,22 @@ In this lab, you will perform the following:
 8. Close Microsoft Edge.
 
 **Results**: After completing this exercise, you will have successfully configured multi-factor authentication by using a conditional access policy.
+
+## Summary 
+
+In this lab, you set up multi-factor authentication (MFA) and conditional access policies to enhance security for Office 365 applications. You learned to configure per-user MFA, implement conditional access with MFA, and test these settings to ensure effective security enforcement. This lab provides practical experience in managing access controls to safeguard sensitive data and maintain a secure user environment.
+
+## Review
+In this lab, you have completed:
+
+- Configure per-user multi-factor authentication
+- Validate sign-in before enabling MFA
+- Enable MFA for a user
+- Register and Validate MFA
+- Remove per-user MFA 
+- Configure multi-factor authentication using conditional access
+- Validate sign-in before enabling conditional access with MFA
+- Configure conditional access with MFA
+- Validate and Remove conditional access MFA
+
+ ## You have successfully completed the lab. Click on Next >> to procced with next exercise.
