@@ -36,8 +36,8 @@ In this task, you will create a Microsoft 365 group named "All Users" in the Azu
    | Group name | All Users |
    | Group description | Similar access group |
    | Microsoft Entra roles can be assigned to the group | yes |
-   | Owners | Click on **no owners selected** and select **ODL_User** from the list |
-   | Members | Click on **no members selected** and select **Allan**, **Jonis**, **Mirinda**, **Edmund** and also include **ODL_User** from the list |
+   | Owners | Click on **no owners selected** and select **ODL_User <inject key="DeploymentID" enableCopy="false"/>** from the list |
+   | Members | Click on **no members selected** and select **Allan**, **Jonis**, **Mirinda**, **Edmund** and also include **ODL_User <inject key="DeploymentID" enableCopy="false"/>** from the list |
 
    ![](../media/lab6-2.png)
 
@@ -69,7 +69,7 @@ In this task, you will configure an access review in Microsoft Entra ID to revie
    | Setting | Value |
    |--------|------|
    | Select reviewers | Selected user(s) or group(s) |
-   | Users or groups | click **+ Select Reviewers** and select **ODL_USER XXXX** from the list |
+   | Users or groups | click **+ Select Reviewers** and select **ODL_USER <inject key="DeploymentID" enableCopy="false"/>** from the list |
    | Review Recurrence | Monthly |
 
    ![](../media/new1-5-3.png)
@@ -80,7 +80,7 @@ In this task, you will configure an access review in Microsoft Entra ID to revie
    |--------|------|
    | Auto apply results to resource | Selected the checkbox |
    | if reviewers dont respond | Take recommendation |
-   | At end of review, send notification to | click **+ Select User(s) or group(s)** and select **ODL_USER XXXX** from the list  |
+   | At end of review, send notification to | click **+ Select User(s) or group(s)** and select **ODL_USER <inject key="DeploymentID" enableCopy="false"/>** from the list  |
 
    ![](../media/new1-5-4.png)
 
