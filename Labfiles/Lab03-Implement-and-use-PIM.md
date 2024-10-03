@@ -24,15 +24,15 @@ In this lab, you will perform the following:
 
 3. In the Privileged Identity Management page, in the left navigation, select **Micrososft Entra roles.**
 
-   ![](../media/lab3-1.png)
+    ![](../media/lab3-1.png)
 
 4. In the left navigation menu, under **Manage**, select **Roles** to see the list of Entra roles.
 
-   ![](../media/lab3-2.png)
+    ![](../media/lab3-2.png)
 
 5. On the top menu, select + **Add assignments**.
 
-   ![](../media/lab3-3.png)
+    ![](../media/lab3-3.png)
 
 6. In the Add assignments page, select the **Select role** menu and then select **Gloabl Administrator.**
 
@@ -46,7 +46,7 @@ In this lab, you will perform the following:
       | Allan Deyoung  | 
       | Joni Sherman   | 
 
-   ![](../media/lab3-4.png)    
+    ![](../media/lab3-4.png)    
 
 9. Select **Next**.
 
@@ -78,11 +78,11 @@ Follow these steps to update or remove an existing role assignment.
 
 6. Select **Remove** to remove the user from eligible assignments.
 
-   ![](../media/lab3-5.png)
+    ![](../media/lab3-5.png)
 
 7. In the **Remove** dialog box, review the information and then select **Yes**.
 
-   ![](../media/lab3-6.png)
+    ![](../media/lab3-6.png)
 
 8. In order to make the eligible assignment to active for any user, select **Update** from Action list.
 
@@ -93,4 +93,4 @@ Follow these steps to update or remove an existing role assignment.
      - Assignment ends : Enter the next date
      - Enter Justification : Test
   
-   ![](../media/lab3-8.png)
+    ![](../media/lab3-8.png)
