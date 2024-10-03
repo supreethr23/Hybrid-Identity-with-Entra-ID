@@ -92,3 +92,5 @@ In this lab , you have completed:
 - Created a Log Analytics Workspace for centralized log management.  
 - Added diagnostic settings to collect audit logs from resources.  
 - Verified the collected logs in the Log Analytics Workspace.
+
+## You have successfully completed the lab. Click on Next >> to procced with next exercise.
