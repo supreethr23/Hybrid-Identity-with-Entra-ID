@@ -96,6 +96,7 @@ Follow these steps to update or remove an existing role assignment.
        ![](../media/lab3-8.png)
 
 ## Summary 
+In this lab, you have completed:
 
-- Assign appropriate Azure resource roles to users or groups.  
-- Update or remove an existing Entra role assignment as needed.
+- Assigned appropriate Azure resource roles to users or groups.  
+- Updated or removed an existing Entra role assignment as needed.
