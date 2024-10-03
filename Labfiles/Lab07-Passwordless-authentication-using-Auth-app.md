@@ -90,10 +90,6 @@ In this task, you validate the passwordless sign-in by logging into the Azure po
 
 1. Once it is approved in the app, it will redirect to the home page of the azure portal without prompting for password.
 
-## Summary 
-
-This lab successfully guided you through setting up and validating passwordless sign-in using the Microsoft Authenticator app in Microsoft Entra ID. By implementing this, you've enhanced both security and user convenience, allowing employees to access corporate resources without relying on traditional passwords. This method provides a more secure and streamlined authentication process.
-
 ## Review
 In this lab, you have completed:
 

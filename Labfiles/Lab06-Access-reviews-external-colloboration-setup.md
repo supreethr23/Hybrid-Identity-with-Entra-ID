@@ -238,10 +238,6 @@ Screen image displaying guest user access restriction options
 - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
 - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-
-## Summary 
-In this lab you learnt to set up access reviews to manage user permissions and enabled guest self-service sign-up. You also configured external collaboration settings to control guest invitations and access, improving security and compliance in Microsoft Entra ID.
-
 ## Review
 In this lab, you have completed:
 
