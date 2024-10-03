@@ -172,10 +172,6 @@ In this task, you will configure directory synchronization between your on-premi
       > Note: At this time, synchronization of objects from your local Active Directory Domain Services (AD DS) and Azure AD begins. You should wait approximately 3-4 minutes for this process to complete.
 
 1. Close all open windows.
-
-1. Open **Microsoft Azure Active Directory Connect** again. In the **optional features(1)**, verify if **password writeback (2)** is enabled. If it isn’t, please check the box to enable it.
-   
-   ![](../media/password_writeback.png)
    
 ## Task 4: Verify synchronization in Azure AD
 In this task, you will verify the synchronization of identities in Azure Active Directory. You will access the Microsoft 365 admin center, navigate to the Identity section, and verify that user accounts synchronized from on-premises AD are visible in Azure AD. By confirming successful synchronization, you will ensure that users can access cloud-based resources using their on-premises credentials.
