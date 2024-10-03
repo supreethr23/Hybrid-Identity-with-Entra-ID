@@ -100,3 +100,5 @@ In this lab, you have completed:
 
 - Assigned appropriate Azure resource roles to users or groups.  
 - Updated or removed an existing Entra role assignment as needed.
+
+## You have successfully completed the lab. Click on Next >> to procced with next exercise.
