@@ -93,4 +93,4 @@ Follow these steps to update or remove an existing role assignment.
      - Assignment ends : Enter the next date
      - Enter Justification : Test
   
-    ![](../media/lab3-8.png)
+       ![](../media/lab3-8.png)
