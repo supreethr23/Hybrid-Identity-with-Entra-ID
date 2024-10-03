@@ -94,3 +94,8 @@ Follow these steps to update or remove an existing role assignment.
      - Enter Justification : Test
   
        ![](../media/lab3-8.png)
+
+## Summary 
+
+- Assign appropriate Azure resource roles to users or groups.  
+- Update or remove an existing Entra role assignment as needed.
