@@ -86,7 +86,7 @@ In this task, you will create a Log Analytics workspace for to store the log inf
       ```
     ![](../media/lab4-6.png)
 
-## Summary
+## Review
 In this lab , you have completed:
 
 - Created a Log Analytics Workspace for centralized log management.  
