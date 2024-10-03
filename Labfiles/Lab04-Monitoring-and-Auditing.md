@@ -69,12 +69,12 @@ In this task, you will create a Log Analytics workspace for to store the log inf
 
 1. In the query pane, run the below queries, to view the activity data ingested into the workspace.
 
-  ```
-   AuditLogs
-  ```
-   ![](../media/lab4-5.png)
+      ```
+       AuditLogs
+      ```
+    ![](../media/lab4-5.png)
 
-  ```
-   SigninLogs
-  ```
-   ![](../media/lab4-6.png)
+      ```
+       SigninLogs
+      ```
+    ![](../media/lab4-6.png)
