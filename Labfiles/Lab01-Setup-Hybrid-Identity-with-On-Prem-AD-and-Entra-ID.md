@@ -209,6 +209,9 @@ In this task, you will verify the synchronization of identities in Azure Active 
 <validation step="ecb2747e-8d27-4fbc-9459-a9bb4a6d5171" />
 
 ## Review 
+
+ In this lab , you have completed:
+
 - Set up a functional Active Directory for user and resource management.  
 - Add users and groups to Domain Controller for access control.  
 - Configure Azure AD Connect for synchronization with Azure Active Directory.  
