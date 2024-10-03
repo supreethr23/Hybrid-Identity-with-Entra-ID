@@ -213,3 +213,5 @@ In this task, you will verify the synchronization of identities in Azure Active 
 - Add users and groups to Domain Controller for access control.  
 - Configure Azure AD Connect for synchronization with Azure Active Directory.  
 - Verify successful synchronization of users and groups in Azure AD.
+
+## You have successfully completed the lab. Click on Next >> to procced with next exercise.
