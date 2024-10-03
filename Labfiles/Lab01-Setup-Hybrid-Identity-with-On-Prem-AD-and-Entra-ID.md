@@ -207,3 +207,8 @@ In this task, you will verify the synchronization of identities in Azure Active 
 > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
 > - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
 
+## Summary 
+- Set up a functional Active Directory for user and resource management.  
+- Add users and groups to Domain Controller for access control.  
+- Configure Azure AD Connect for synchronization with Azure Active Directory.  
+- Verify successful synchronization of users and groups in Azure AD.
