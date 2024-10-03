@@ -200,14 +200,15 @@ In this task, you will verify the synchronization of identities in Azure Active 
 
 **Results**: After completing this exercise, you will have successfully configured Azure AD Connect to synchronize identity from Active Directory Domain Services to Azure Active Directory.
 
-<validation step="ecb2747e-8d27-4fbc-9459-a9bb4a6d5171" />
-   
+  
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps
 > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
 > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
 > - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-## Summary 
+<validation step="ecb2747e-8d27-4fbc-9459-a9bb4a6d5171" />
+
+## Review 
 - Set up a functional Active Directory for user and resource management.  
 - Add users and groups to Domain Controller for access control.  
 - Configure Azure AD Connect for synchronization with Azure Active Directory.  
