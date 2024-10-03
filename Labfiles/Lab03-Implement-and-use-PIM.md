@@ -60,7 +60,7 @@ In this lab, you will perform the following:
 
 12. When finished, select **Assign**.
 
-   ![](../media/lab3-7.png)
+    ![](../media/lab3-7.png)
 
 13. After the new role assignment is created, a status notification is displayed.
 
