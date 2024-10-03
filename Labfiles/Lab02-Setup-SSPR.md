@@ -129,3 +129,4 @@ In this lab, you will perform the following:
 - Enable self-service password reset for user convenience and security.  
 - Validate the self-service password reset process for functionality and effectiveness.
 
+## You have successfully completed the lab. Click on Next >> to procced with next exercise.
