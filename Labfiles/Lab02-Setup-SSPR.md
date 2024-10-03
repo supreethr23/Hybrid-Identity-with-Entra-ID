@@ -123,3 +123,9 @@ In this lab, you will perform the following:
 
 **Results**: After completing this exercise, you will have successfully configured and validated self-service password reset.
 
+## Summary 
+
+- Configure password writeback and establish a minimum password age policy.  
+- Enable self-service password reset for user convenience and security.  
+- Validate the self-service password reset process for functionality and effectiveness.
+
