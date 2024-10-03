@@ -125,6 +125,8 @@ In this lab, you will perform the following:
 
 ## Review
 
+ In this lab , you have completed:
+
 - Configure password writeback and establish a minimum password age policy.  
 - Enable self-service password reset for user convenience and security.  
 - Validate the self-service password reset process for functionality and effectiveness.
