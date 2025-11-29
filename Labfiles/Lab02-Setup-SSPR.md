@@ -22,33 +22,35 @@ In this lab, you will perform the following:
 
 3. On the **Welcome to Azure AD Connect** page, select **Configure**.
 
-   ![](../media/lab2-1.png)
+   ![](../media/lab2-1upd.png)
 
 4. On the **Additional tasks** page, select **Customize synchronization options**, and then select **Next**.
 
-   ![](../media/lab2-2.png)
+   ![](../media/lab2-2upd.png)
 
-5. On the **Connect to Azure AD** page, if needed type **<inject key="AzureAdUserEmail"></inject>** in the **USERNAME** text box, type your Admin tenant password **<inject key="AzureAdUserPassword"></inject>** in the **PASSWORD** text box, and then select **Next**.
+1. On the **Connect to Entra ID** page, type **<inject key="AzureAdUserEmail"></inject>** in the **USERNAME** text box and then select **Next**.
 
-   ![](../media/lab2-3.png)
+   ![](../media/lab2-3upd.png)
+
+1. Select the ODL User and enter the Temporary Access Pass  **<inject key="AzureAdUserPassword"></inject>**
 
 6. On the **Connect to your directories** page, select **Next**.
 
-   ![](../media/lab2-4.png)
+   ![](../media/lab2-4upd.png)
 
 7. On the **Domain and OU filtering** page, select **Next**.
 
 8. On the **Optional features** page, select **Password writeback**, and then select **Next**.
 
-    ![](../media/lab2-5.png)
+    ![](../media/lab2-5upd.png)
 
 9. On the **Ready to configure** page, select **Configure**.
 
-    ![](../media/lab2-6.png)
+    ![](../media/lab2-6upd.png)
 
 10. On the **Configuration complete** page, select **Exit**.
 
-    ![](../media/lab2-7.png)
+    ![](../media/lab2-7upd.png)
 
 11. Open CMD and run the below command to update the minimum password age policy to 0.
 
@@ -56,15 +58,17 @@ In this lab, you will perform the following:
         secedit /configure /cfg %windir%\inf\defltbase.inf /db defltbase.sdb /verbose
       ```
 
-13. Once updated, restart the LabVM and verify if the policy is updated, navigate to Local security policy -> expand Security Settings -> Account Policies -> Password Policy. The Minimum Password Age should be set to 0.
+13. Once updated, **Restart** the **LabVM** and verify if the policy is updated. Navigate to Local security policy -> expand Security Settings -> Account Policies -> Password Policy. The Minimum Password Age should be set to 0.
 
-    ![](../media/lab2-9.png)
+    ![](../media/lab2-9a.png)
+
+    ![](../media/lab2-9upd.png)
 
 ### Task 2: Enable self-service password reset
 
 1. On the taskbar select **Microsoft Edge**, in the address bar type **https://entra.microsoft.com/**, and then press **Enter**.
 
-2. Sign in as  **<inject key="AzureAdUserEmail"></inject>**, and use the tenant Admin password **<inject key="AzureAdUserPassword"></inject>**, If the **Stay signed in?** prompt appears, select **No**.  
+2. If prompted, sign in as  **<inject key="AzureAdUserEmail"></inject>**, and use the tenant Admin password **<inject key="AzureAdUserPassword"></inject>**, If the **Stay signed in?** prompt appears, select **No**.  
 
    > The Microsoft Entra admin center opens.
 
@@ -72,7 +76,11 @@ In this lab, you will perform the following:
 
 4. In the search box, type **password reset**, and then select **Password reset**.
 
+    ![](../media/lab2-t1.png)
+
 5. In the **Password reset | Properties** window, select **All** to enable self-service password reset to all users. Select **Save**.
+
+    ![](../media/lab2-t2.png)
 
 6. On the **Password reset | Properties** blade, select **Authentication methods**.
 
@@ -82,15 +90,25 @@ In this lab, you will perform the following:
 
 9. For the **Number of questions required to reset**, select **3**.
 
+    ![](../media/lab2-t3.png)
+
 10. In the **Select security questions** section, select **No security questions configured**, then select **Predefined**. Select three questions of your choice, and then select **Ok**.
+
+    ![](../media/lab2-t4.png)
+
+    ![](../media/lab2-t5.png)
 
 11. Select **Save**.
 
 12. Select **Registration** Select **No** for **Require users to register when signing in**, and the select **Save**.
 
+    ![](../media/lab2-t6.png)
+
 13. In the navigation pane, select **On-premises integration**.
 
 14. Verify that your on-premises writeback client is running and Select the checkbox for **Write back passwords with Microsoft Entra Connect cloud sync** and then click **Save**.
+
+    ![](../media/lab2-t7.png)
 
 15. Close Microsoft Edge.
 
@@ -102,20 +120,24 @@ In this lab, you will perform the following:
 
 3. On the **Pick an account** page, select **Use another account**.
 
-4. On the **Sign in** page, enter **`msnider@xxxxxxx.onmicrosoft.com`** and then select **Next**.
+4. On the **Sign in** page, enter **`msnider@xxxxxx.onmicrosoft.com`** and then select **Next**.
+
+    ![](../media/lab2-t8.png)
 
   >**Note**: Replace xxxx with the tenantname provided.
 
 5. On the **Enter password** page, enter **Pa55-w.rd!** or the password that you have entered and then select **Sign in**. If the Microsoft Edge prompts to save the password, select **Save**.
 
-6. On the **My Account** page, in the navigation pane, select **Password**.
+6. On the **My Account** page, in the navigation pane, select **Change password**.
 
-    ![](../media/lab2-8.png)
+    ![](../media/lab2-8upd.png)
 
 7. On the **Change password** page, enter the following information and then select **submit**:
      - Old password: **Pa55-w.rd!**
      - Create new password: **Pa55w.rd!1234**
      - Confirm new password: **Pa55w.rd!1234**
+
+    ![](../media/lab2-8upd2.png)
 
 8. If Microsoft Edge prompts to save the password, select **Save**.
 
