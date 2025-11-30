@@ -34,7 +34,7 @@ In this lab, you will perform the following:
 
     ![](../media/lab3-3.png)
 
-6. In the Add assignments page, select the **Select role** menu and then select **Gloabl Administrator.**
+6. In the Add assignments page, select the **Select role** menu and then select **Global Administrator.**
 
 7. Under **Select member(s),** select **No member selected**.
 
@@ -46,7 +46,7 @@ In this lab, you will perform the following:
       | Allan Deyoung  | 
       | Joni Sherman   | 
 
-    ![](../media/lab3-4.png)    
+    ![](../media/lab3-4upd.png)    
 
 9. Select **Next**.
 
@@ -78,7 +78,7 @@ Follow these steps to update or remove an existing role assignment.
 
 6. Select **Remove** to remove the user from eligible assignments.
 
-    ![](../media/lab3-5.png)
+    ![](../media/lab3-5upd.png)
 
 7. In the **Remove** dialog box, review the information and then select **Yes**.
 
