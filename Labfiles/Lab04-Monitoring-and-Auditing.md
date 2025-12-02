@@ -51,22 +51,21 @@ In this task, you will create a Log Analytics workspace for to store the log inf
 
 1. Navigate to Microsoft Entra ID, and select **Diagnostic settings** under Monitoring section.
 
-   ![](../media/lab4-3.png)
+   ![](../media/lab4-3update.png)
 
 1. Click on **+Add diagnostic setting** and provide the below settings
 
    | Setting | Value |
    -----------|---------
    | Diagnostic setting name | **Logsinfo** |
-   |Logs | select **Auditlogs** and **signinlogs** |
+   |Logs | select **audit** and **allLogs** |
 
-   ![](../media/lab4-4.png)
+   ![](../media/lab4-4upd.png)
 
 1. On **Destination details**, select the **Send to Log analytics checkbox** and make sure that log analytics workspace which is created earlier is selected.
 
 1. Click on **Save**.
-
-  >**Note**: Wait for about 15 mins for logs ingestion to happen and proceed with the next task.
+   >**Note**: Wait for about 15 mins for logs ingestion to happen and proceed with the next task.
 
 ## Task 3 - Verify the logs in the workspace
 
@@ -79,12 +78,12 @@ In this task, you will create a Log Analytics workspace for to store the log inf
       ```
        AuditLogs
       ```
-    ![](../media/lab4-5.png)
+    ![](../media/lab4-5upd.png)
 
       ```
        SigninLogs
       ```
-    ![](../media/lab4-6.png)
+    ![](../media/lab4-6upd.png)
 
 ## Review
 

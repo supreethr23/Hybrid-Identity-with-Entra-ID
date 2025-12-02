@@ -30,7 +30,7 @@ In this task, you are validating the current sign-in process to Outlook on the W
 
 1. On the taskbar, select **Microsoft Edge**.
 
-2. In the address bar, enter **outlook.office.com** and press Enter.
+2. In the address bar, enter `outlook.office.com` and press Enter.
   
 3. At the **Sign in** page, enter **<inject key="AzureAdUserEmail"></inject>** and then select **Next**.
 
@@ -55,54 +55,28 @@ In this task, you will enable multi-factor authentication (MFA) for a specific u
 1. In **Microsoft Edge**, in the address bar type **https://entra.microsoft.com**, and then press **Enter**.
 
 2. Sign in as user **<inject key="AzureAdUserEmail"></inject>** and use the tenant Admin password  **<inject key="AzureAdUserPassword"></inject>**. If the **Stay signed in?** prompt appears, select **No**. 
-
    > The Microsoft Entra admin center opens.
 
 3. At the top of the web page, In the search resources box, type multifactor authentication and then select **multifactor authentication**.
-
    > The multi-factor authentication page opens.
 
-4. Select **Additional cloud-based multifactor authentication settings**.If prompted to sign in using at the **Sign in** page, select **<inject key="AzureAdUserEmail"></inject>**
+1. Select **Additional cloud-based multifactor authentication settings**.If prompted to sign in using at the **Sign in** page, select **<inject key="AzureAdUserEmail"></inject>**
 
-   ![](../media/hybrid01.png)
+   ![](../media/hybrid01upd.png)
 
-5. On the **Per-user multifactor authentication** page click on **here** link. 
+1. In the user list, select the check box next to **<inject key="AzureAdUserEmail"></inject> (1)** and then click on **Enable MFA (2)**
 
-     ![](../media/new1-5-15.png)
+   ![](../media/hybrid001.png)
 
-6. In the **multi-factor authentication** page, select **service settings**. Select **Allow users to remember multi-factor authentication on devices they trust**.
+1. On the **Enable multifactor authentication** page click on **Enable**
 
-7. Next to **Number of days users can trust devices for**, enter **30** and then select **save**. 
+   ![](../media/hybrid002.png)
 
-    ![](../media/new1-5-14.png)
+1. Now, refresh the page and then notice that the MFA status shows **enabled** for the **<inject key="AzureAdUserEmail"></inject> (1)**
 
-8. Close the **multi-factor authentication** page.
+   ![](../media/hybrid003.png)
 
-9. Navigate back to the **Microsoft Entra admin center** Edge tab and in the navigation pane, select **Users** > **All users**.
-
-10. In the users list, at the top of the user list, select **Per-user MFA**. The Per-user MFA page opens.
-
-    ![](../media/hybrid03.png)
-
-11. To open **Per-user multifactor authentication** page click on **here** link.
-
-      ![](../media/new1-5-15.png)
-
-13. In the user list, select the check box next to **<inject key="AzureAdUserEmail"></inject>**.
-
-14. In the right navigation pane, on the **quick steps** pane, select **Enable**.
-
-    ![](../media/new1-5-16.png)
-
-16. On the **About enabling multi-factor auth** message, select **enable multi-factor auth**.
-
-      ![](../media/new1-5-17.png)
-    
-18. On the **Updates successful** message, select **close**. Take note that the **Multi-Factor Auth Status** for **<inject key="AzureAdUserEmail"></inject>** is now **Enabled**.
-
-    ![](../media/new1-5-18.png)
-
-20. Close Microsoft Edge.
+1. Close Microsoft Edge.
 
 ### Task 3: Register and Validate MFA 
 
