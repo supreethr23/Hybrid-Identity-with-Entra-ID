@@ -25,16 +25,12 @@
         "Order": 5
       },
       {
-        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Hybrid-Identity-with-Entra-ID/main/Labfiles/Lab05-Setup-MFA-and-Conditional-Access.md",
+        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Hybrid-Identity-with-Entra-ID/main/Labfiles/Lab06-Access-reviews-external-colloboration-setup.md",
         "Order": 6
       },
       {
-        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Hybrid-Identity-with-Entra-ID/main/Labfiles/Lab06-Access-reviews-external-colloboration-setup.md",
-        "Order": 7
-      },
-      {
         "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Hybrid-Identity-with-Entra-ID/main/Labfiles/Lab07-Passwordless-authentication-using-Auth-app.md",
-        "Order": 8
+        "Order": 7
       }
      ]  
    }
