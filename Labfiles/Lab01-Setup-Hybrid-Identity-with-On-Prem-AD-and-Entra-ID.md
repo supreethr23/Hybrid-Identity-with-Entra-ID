@@ -2,21 +2,17 @@
 
 ### Estimated Duration: 60 Minutes
 
-## Lab Overview 
+## Overview 
+
 This lab focuses on setting up a hybrid identity solution using on-premises Active Directory (AD) and Microsoft Entra ID. It guides users through the process of configuring Active Directory on a Windows Server, adding users/groups to the domain controller, and configuring directory synchronization with Microsoft Entra Connect to sync identities between on-premises AD and Microsoft Entra.
 
-## Lab Scenario
-In this lab scenario, you are tasked with setting up a hybrid identity solution to seamlessly manage user identities across on-premises and cloud environments. By configuring Active Directory on a Windows Server, adding users/groups, and setting up directory synchronization with Microsoft Entra Connect, organizations can achieve centralized identity management and enable single sign-on capabilities for their users.
+## Objectives
 
-## Lab objectives
 In this lab, you will perform the following:
-
 - Task 1: Active Directory Setup
 - Task 2: Adding users or groups in your Domain Controller
 - Task 3: Configure directory synchronization with Microsoft Entra Connect
 - Task 4: Verify synchronization in Microsoft Entra 
-
-## Estimated timing: 90 minutes
 
 ## Task 1: Active Directory Setup
 In this task, you will set up Active Directory Domain Services on a Windows Server. This involves launching Server Manager, adding roles and features, selecting Active Directory Domain Services, and promoting the server to a domain controller. By completing this task, you will establish the foundation for managing users, groups, and other objects within your domain.

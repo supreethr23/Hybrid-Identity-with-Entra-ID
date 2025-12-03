@@ -2,16 +2,13 @@
 
 ### Estimated Duration: 30 Minutes
 
-## Lab Overview
+## Overview
 
 This lab focuses on setting up the use of Microsoft Entra to assign Global Administrator roles to specified users with defined privileges and durations. Then, manage and update existing role assignments, transitioning them from eligible to active status as needed, with specified durations and justifications.
 
-## Lab Scenario
-In this lab scenario, you are tasked with the need to delegate specific Azure resource access to different departments while ensuring security. By implementing Privileged Identity Management, they can assign temporary Global Administrator roles to designated employees, requiring approval and justification, thus enhancing security and governance.
+## Objectives
 
-## Lab objectives
 In this lab, you will perform the following:
-
 - Task 1: Assign Azure resource roles
 - Task 2: Update or remove an existing Entra role assignment
 
