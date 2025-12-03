@@ -1,4 +1,6 @@
-# Lab 6: Configure Access reviews and external collaboration setup
+# Lab 05: Configure Access reviews and external collaboration setup
+
+### Estimated Duration: 60 Minutes
 
 ## Lab Overview 
 This lab focuses on setting up access reviews to ensure proper management of user permissions within Microsoft Entra ID, enhancing security and compliance. By creating groups and configuring access reviews, administrators can regularly monitor and adjust user access to Teams and Groups, optimizing resource allocation while minimizing security risks.
@@ -22,11 +24,15 @@ In this lab, you will perform the following:
 ### Task 1: Create a group
 In this task, you will create a Microsoft 365 group named "All Users" in the Azure portal, assign ODL_User as the owner, and add specified members to the group.
 
-1. Navigate back to **Azure** portal and search and select **Groups**
+1. On the Azure portal, search and navigate to **Entra ID**
 
-1. click on **+ New group**
+1. Select **Groups (2)** under **Manage (1)**
 
-   ![](../media/lab6-1.png)
+   ![](../media/lab612upd.png)
+
+1. Select **All Groups** and click on **+ New group**
+
+   ![](../media/lab6-1upd.png)
 
 1. Create a group based on the below settings
 
@@ -54,11 +60,17 @@ In this task, you will create a Microsoft 365 group named "All Users" in the Azu
 
 In this task, you will configure an access review in Microsoft Entra ID to review access permissions for Teams and Groups. The access review will include all users and will recur monthly. Reviewers will be selected from a specific user group, and notifications will be sent to all users at the end of the review. The review will auto-apply results to resources and take recommendations if reviewers don't respond. Ensure the settings are accurate before creating the access review.
 
-1. On the **Azure portal**, search and select **Microsoft Entra ID** then select **Identity governance** under **Manage** section .
+1. Navigate back to Overview page of **Microsoft Entra ID** then select **Identity governance** under **Manage** section .
 
-1. From the left navigation pane expand and select **Access reviews**.
+   ![](../media/idgov.png)
 
-1. Select **+ New access review**.
+1. From the left navigation pane expand, select **Access reviews** and select **+ New access review**.
+
+   ![](../media/accrev.png)
+
+1. On the **Choose an Access Review Template**, select **Review access to a resource type**
+
+   ![](../media/accrev2.png)
 
 1. On **New access review** page, provide the below settings and Select **Next:Reviews**.
 
@@ -68,6 +80,8 @@ In this task, you will configure an access review in Microsoft Entra ID to revie
    | Review scope | select Teams + groups (2)|
    | Groups | select **+ Select group(s)** link and search and select **All users** from the list (3)|
    | Scope | All users (4)|
+
+   ![](../media/new-5-32.png)
 
    ![](../media/new-5-3.png)
 
@@ -105,7 +119,7 @@ In this task, you will review and manage user access to groups and applications 
 
 1. Select **Access reviews** from the left menu to see a list of pending access reviews assigned to you.
 
-   ![](../media/new1-5-6.png)
+   ![](../media/new1-5-6upd.png)
 
 1. After you open My Access under Groups and Apps, you can see:
 
@@ -139,7 +153,7 @@ In this task, you will review and manage user access to groups and applications 
 
     - You can change your response at any time until the access review has ended. If you want to change your response, select the row and update the response. For example, you can approve a previously denied user or deny a previously approved user.
 
-      ![](../media/hybrid11.png)
+      ![](../media/hybrid11upd.png)
 
 1. **Review access based on recommendations** - Follow the below steps
 
@@ -167,7 +181,7 @@ In this task, you'll configure settings to allow guest users to sign up for acce
 
 1. On the **Pick an account** page, select **<inject key="AzureAdUserEmail"></inject>**.
 
-1. Select **Identity** then select **Users**.
+1. Select **Users** under **Entra ID**.
 
 1. Open the **All users** menu item, then select **User Settings**. and select **Manage external user collaboration settings**.
    
@@ -181,7 +195,7 @@ In this task, you'll configure settings to allow guest users to sign up for acce
 
 In this task, you'll configure external collaboration settings by enabling email one-time passcode notifications, setting guest user access levels, specifying who can invite guest users, and configuring collaboration restrictions.
 
-1. From the left navigation pane, under **Identity** select **External Identities**, and then select **All identity providers**.
+1. From the left navigation pane, under **Entra ID** select **External Identities**, and then select **All identity providers**.
 
 1. Select the **Email one-time passcode** configured link.
 
@@ -250,3 +264,4 @@ In this lab, you have completed:
 - Configure external collaboration settings
 
 ## You have successfully completed the lab. Click on Next >> to procced with next exercise.
+   ![](../media/up4.png)

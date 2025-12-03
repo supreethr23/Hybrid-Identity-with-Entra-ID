@@ -1,6 +1,8 @@
-## Lab07 - Configuring passwordless sign-in using an authentication app (Read -Only)
+## Lab 06 - Configuring passwordless sign-in using an authentication app (Read-Only)
 
-  >**Note**: During this Azure lab, you'll set up passwordless sign-in, which may involve registering personal mobile devices with Azure AD. We recommend following instructions provided and avoiding device registration unless necessary for learning objectives. Understand access implications within Azure.
+### Estimated Duration: 15 Minutes
+
+  >**Note**: During this Azure lab, you'll set up passwordless sign-in, which may involve registering personal mobile devices with Entra ID. We recommend following instructions provided and avoiding device registration unless necessary for learning objectives. Understand access implications within Azure.
 
 **Pre-requisities** - Install the Microsoft Authenticator app in mobile
 
@@ -98,7 +100,11 @@ In this lab, you have completed:
 - Enable Phone signin
 - Validate the passwordless signin
 
+## Conclusion
+
+Throughout this comprehensive Hybrid Identity lab series, you have successfully implemented a complete enterprise-scale identity management solution that seamlessly integrates on-premises Active Directory with Microsoft Entra ID. Starting with foundational hybrid identity setup and AD synchronization, you progressed through enabling self-service password reset with password writeback, implementing privileged access management with time-bound role assignments, establishing comprehensive monitoring and audit capabilities through Log Analytics, configuring adaptive security controls with conditional access and multi-factor authentication, managing access governance through recurring access reviews, and finally implementing modern passwordless authentication methods. This lab series has equipped you with the essential skills to architect, deploy, and manage a robust hybrid identity infrastructure that enhances security posture, ensures regulatory compliance, improves user experience, and scales effectively across enterprise environments. By combining on-premises governance with cloud-based identity services, conditional access policies, privileged identity management, comprehensive monitoring, and modern authentication methods, you have created a secure, compliant, and user-friendly identity solution capable of protecting organizational resources while enabling seamless access for legitimate users across both on-premises and cloud platforms.
+
 ## You have successfully completed the lab.
 
 
-   
+
