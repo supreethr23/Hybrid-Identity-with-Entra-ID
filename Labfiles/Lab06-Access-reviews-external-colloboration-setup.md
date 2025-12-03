@@ -1,4 +1,6 @@
-# Lab 6: Configure Access reviews and external collaboration setup
+# Lab 05: Configure Access reviews and external collaboration setup
+
+### Estimated Duration: 60 Minutes
 
 ## Lab Overview 
 This lab focuses on setting up access reviews to ensure proper management of user permissions within Microsoft Entra ID, enhancing security and compliance. By creating groups and configuring access reviews, administrators can regularly monitor and adjust user access to Teams and Groups, optimizing resource allocation while minimizing security risks.
@@ -262,3 +264,4 @@ In this lab, you have completed:
 - Configure external collaboration settings
 
 ## You have successfully completed the lab. Click on Next >> to procced with next exercise.
+   ![](../media/up4.png)

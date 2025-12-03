@@ -1,12 +1,14 @@
-# Lab 2: Configuring Self-service password reset for user accounts in Azure AD
+# Lab 02: Configuring Self-service password reset for user accounts in Entra ID
+
+### Estimated Duration: 45 Minutes
 
 ## Lab Overview 
 
-This lab focuses on configuring Azure AD Connect with password writeback, updating the minimum password age policy to 0, enabling self-service password reset with authentication methods via Microsoft Entra Admin Center, and validating by changing a password via the My Account page in Microsoft Edge.
+This lab focuses on configuring Entra Connect with password writeback, updating the minimum password age policy to 0, enabling self-service password reset with authentication methods via Microsoft Entra Admin Center, and validating by changing a password via the My Account page in Microsoft Edge.
 
 ## Lab Scenario
 
-In this lab scenario, you are tasked with setting up self-service password reset in Azure AD, employees can securely reset their passwords without IT intervention, improving productivity. Additionally, enabling password writeback ensures synchronization between on-premises and cloud environments, enhancing security and user experience.
+In this lab scenario, you are tasked with setting up self-service password reset in Entra ID, employees can securely reset their passwords without IT intervention, improving productivity. Additionally, enabling password writeback ensures synchronization between on-premises and cloud environments, enhancing security and user experience.
 
 ## Lab objectives
 
@@ -20,7 +22,7 @@ In this lab, you will perform the following:
 
 1. Select the **Azure AD Connect** application from the desktop
 
-3. On the **Welcome to Azure AD Connect** page, select **Configure**.
+3. On the **Welcome to Entra Connect Sync** page, select **Configure**.
 
    ![](../media/lab2-1upd.png)
 
@@ -143,8 +145,6 @@ In this lab, you will perform the following:
 
 9. Close Microsoft Edge.
 
-**Results**: After completing this exercise, you will have successfully configured and validated self-service password reset.
-
 ## Review
 
  In this lab , you have completed:
@@ -154,3 +154,4 @@ In this lab, you will perform the following:
 - Validate the self-service password reset process for functionality and effectiveness.
 
 ## You have successfully completed the lab. Click on Next >> to procced with next exercise.
+   ![](../media/up4.png)

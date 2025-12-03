@@ -1,4 +1,6 @@
-# Lab 3: Implement and use Privileged Identity Management
+# Lab 03: Implement and use Privileged Identity Management
+
+### Estimated Duration: 30 Minutes
 
 ## Lab Overview
 
@@ -103,3 +105,4 @@ Follow these steps to update or remove an existing role assignment.
 - Updated or removed an existing Entra role assignment as needed.
 
 ## You have successfully completed the lab. Click on Next >> to procced with next exercise.
+   ![](../media/up4.png)
